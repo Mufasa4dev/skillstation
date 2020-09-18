@@ -1,0 +1,128 @@
+@font-face {
+    font-family: skillstation;
+    src: url(../font/Helvetica.ttf);
+} 
+h1,h2,h3,h4,p,a{
+    font-family: skillstation;
+}
+.noPadding {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* section-one styles starts here */
+.nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #1D3557;
+}
+.nav-logo{
+    position: absolute;
+    left: 7%;
+    top: 1%;
+}
+.nav-bar{
+    position: absolute;
+    left: 30%;
+    display: none;
+    cursor: pointer;
+}
+.nav-menu{
+    position: absolute;
+    left: 40%;
+    top: 4%;
+    height: 40px;
+    width: 60%;
+}
+.nav-menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+#sign{
+    border: solid 1px #ED3237;
+    background-color: #ED3237;
+    color:white;
+    padding: 5px;
+    border-radius: 10px;
+    height: 60px;
+}
+#log{
+    border: solid 1px #ED3237;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+/* section-one styles ends here */
+@media(max-width:650px){
+    /* section one media starts here */
+    .nav{
+        height: 80px;
+    }   
+    .nav-logo{
+        position: absolute;
+        left: 5%;
+        top: 2%;
+    }
+    .nav-bar{
+        position: absolute;
+        left: 80%;
+        display: block;
+        color: white;
+        top: 5%;
+    }
+    .nav-menu{
+        position: absolute;
+        left: 40%;
+        top: 14%;
+        height: 40px;
+        width: 60%;
+        display: none;
+    }
+    .nav-menu a{
+        text-decoration: none;
+        padding: 20px;
+        display: block;
+        color: white;
+        background-color: #ED3237;
+        border-radius: 10px;
+        margin-top: 1%;
+    }
+    .nav-menu :hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1D3557;
+    }
+    #sign{
+        border: solid 1px #ED3237;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #ED3237;
+    }
+    #sign:hover{
+     color: #1D3557;
+    }
+    #log:hover{
+        color: #1D3557;
+         }
+    #log{
+        border: solid 1px #ED3237;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 0px;
+
+    }
+    .empty{
+        display: block;
+    }
+        /* section one media ends here */
+}
