@@ -40,6 +40,11 @@ h1,h2,h3,h4,p,a{
     height: 40px;
     width: 60%;
 }
+.nav-menu :hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #ED3237;
+    }
 .nav-menu a{
     text-decoration: none;
     padding: 20px;
@@ -60,7 +65,110 @@ h1,h2,h3,h4,p,a{
     border-radius: 10px;
     margin-left: 20px;
 }
-/* section-one styles ends here */
+#sign:hover{
+    color: #1D3557;
+   }
+   #log:hover{
+       color: #ED3237;
+        }
+        /* section-three styles starts here */
+        .sphere{
+            border: solid;
+            }
+            .circle{
+                display: flex;
+            }
+            #box-1{
+                border: solid ;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 15%;
+            }
+            #box-2{
+                border: solid;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 20%;
+            }
+            #box-3{
+                border: solid;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 20%;
+            }
+            .oval{
+                display: flex;
+                margin: 20px;
+                padding: 10px;
+            }
+            #box-par1{
+                padding: 10px;
+                margin-left: 13%;
+                width: 200px;
+            }
+            #box-par2{
+                padding: 10px;
+                margin-left: 15%;
+                width: 200px;
+            }
+            #box-par3{
+                padding: 10px;
+                margin-left: 19%;
+                width: 200px;
+            }
+            
+            /* section-three styles ends here */
+              /* section-four styles starts here */
+              .big-wrap{
+                background-color:#1D3557;
+                display: flex;
+            }
+            .text-wrap{
+                width: 600px;
+                /* height: 350px; */
+                margin-left: 10%;
+                margin-top: 20px;
+            }
+            .text-wrap #para-1{
+                margin-left: 5%;
+                color: #ffffff;
+                font-weight: 400;
+                font-size: 18px;
+            }
+            .text-wrap #para-2{
+                margin-left: 5%;
+                margin-top: 10%;
+                color: #ffffff;
+                font-weight: 400;
+                font-size: 18px;
+            }
+            #join{
+                padding: 2%;
+                width: 200px;
+                height: 40px;
+                margin-top: 15%;
+                margin-left: 20%;
+                background-color: #ED3237;
+                border-radius: 10px;
+               
+            }
+            #join a{
+                color: #ffffff;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            #join :hover{
+                color: #1D3557;
+                text-decoration: none;
+            }
+                /* section-four styles ends here */
+
 @media(max-width:650px){
     /* section one media starts here */
     .nav{
@@ -84,6 +192,7 @@ h1,h2,h3,h4,p,a{
         top: 14%;
         height: 40px;
         width: 60%;
+        z-index: +1;
         display: none;
     }
     .nav-menu a{
@@ -125,4 +234,77 @@ h1,h2,h3,h4,p,a{
         display: block;
     }
         /* section one media ends here */
+       /* section three media starts here */
+        .sphere{
+            border: solid;
+            }
+            .circle{
+                display: flex;
+            }
+            #box-1{
+                border: solid ;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 5%;
+            }
+            #box-2{
+                border: solid;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 7%;
+            }
+            #box-3{
+                border: solid;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 7%;
+            }
+            .oval{
+                display: flex;
+                margin: 20px;
+                padding: 10px;
+            }
+            #box-par1{
+                padding: 10px;
+                margin-left: 8%;
+                width: 200px;
+            }
+            #box-par2{
+                padding: 10px;
+                margin-left: 10%;
+                width: 200px;
+            }
+            #box-par3{
+                padding: 10px;
+                margin-left: 12%;
+                width: 200px;
+            }
+       /* section three media ends here */
+        /* section four media starts here */
+       .big-wrap{
+        background-color:#1D3557;
+        display: block;
+    } .text-wrap{
+        width: 100%;
+        height: 400px;
+        margin-left: 0%;
+        margin-top: 20%;
+    }
+    .text-wrap #para-1{
+        margin-left: 2%;
+        margin-top: 10%;
+        color: #ffffff;
+    }
+    .text-wrap #para-2{
+        margin-left: 2%;
+        margin-top: 10%;
+        color: #ffffff;
+    }
+     /* section four media ends here */
 }
