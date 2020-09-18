@@ -19,7 +19,7 @@ body{
 
 } 
 #bg{
-    background-image: url("images/pexels-christina-morillo-1181355\ 2.svg");
+    background-image: url("../loginimages/pexels-christina-morillo-1181355\ 2.svg");
     background-size: cover; 
     height: 600PX;
     float: left;
@@ -49,3 +49,46 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* styling form */
+
+
+form{
+    width: 73%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    
+}
+form input{ 
+    width: 91%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+button{
+    width: 99.7%;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color:#ED3237;
+    color: white;
+    border: none;
+
+}
+
+span a{
+    text-decoration: none;
+    margin-left: 30px;
+
+}
+
+
