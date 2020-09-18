@@ -71,6 +71,59 @@ h1,h2,h3,h4,p,a{
    #log:hover{
        color: #ED3237;
         }
+        /* section-three styles starts here */
+        .sphere{
+            border: solid;
+            }
+            .circle{
+                display: flex;
+            }
+            #box-1{
+                border: solid ;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 15%;
+            }
+            #box-2{
+                border: solid;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 20%;
+            }
+            #box-3{
+                border: solid;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 20%;
+            }
+            .oval{
+                display: flex;
+                margin: 20px;
+                padding: 10px;
+            }
+            #box-par1{
+                padding: 10px;
+                margin-left: 13%;
+                width: 200px;
+            }
+            #box-par2{
+                padding: 10px;
+                margin-left: 15%;
+                width: 200px;
+            }
+            #box-par3{
+                padding: 10px;
+                margin-left: 19%;
+                width: 200px;
+            }
+            
+            /* section-three styles ends here */
 
 @media(max-width:650px){
     /* section one media starts here */
@@ -137,6 +190,56 @@ h1,h2,h3,h4,p,a{
         display: block;
     }
         /* section one media ends here */
-       
-        
+       /* section three media starts here */
+        .sphere{
+            border: solid;
+            }
+            .circle{
+                display: flex;
+            }
+            #box-1{
+                border: solid ;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 5%;
+            }
+            #box-2{
+                border: solid;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 7%;
+            }
+            #box-3{
+                border: solid;
+                width: 150px;
+                height: 150px;
+                margin-top: 5px;
+                border-radius: 50%;
+                margin-left: 7%;
+            }
+            .oval{
+                display: flex;
+                margin: 20px;
+                padding: 10px;
+            }
+            #box-par1{
+                padding: 10px;
+                margin-left: 8%;
+                width: 200px;
+            }
+            #box-par2{
+                padding: 10px;
+                margin-left: 10%;
+                width: 200px;
+            }
+            #box-par3{
+                padding: 10px;
+                margin-left: 12%;
+                width: 200px;
+            }
+       /* section three media ends here */
 }
