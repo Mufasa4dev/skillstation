@@ -233,6 +233,181 @@ h1,h2,h3,h4,p,a{
                     border: solid;
                 }
                 /* section six styles ends here */
+                /* section seven styles starts here */
+                
+                .skill{
+                    background-color: #f1faee;
+
+                }
+                .skill, h2, h3{
+                    font-weight: 400;
+                    font-size: 36px;
+                }
+                .skill h2{
+                    text-align: center;
+                }
+                .skill h3{
+                    margin-left: 10%;
+                    margin-top: 15px;
+                }
+                .all{
+                    display: flex;
+                }
+                .dig-skill-1{
+                    height: 300px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #dig-img1{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/UI-UX1\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #dig-img1{
+                    width: 100%;
+                    
+                }
+                #dig-text1{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #dig-text1 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #dig-text1 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .dig-skill-2{
+                    height: 300px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #dig-img2{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/software3\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #dig-img2{
+                    width: 100%;
+                    
+                }
+                #dig-text2{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #dig-text2 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #dig-text2 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .dig-skill-3{
+                    height: 300px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #dig-img3{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/bootstrap3\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #dig-img3{
+                    width: 100%;
+                    
+                }
+                #dig-text3{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #dig-text3 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #dig-text3 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .dig-skill-4{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #dig-img4{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/product\ mag1\ 2.png);
+                    border-top-right-radius: 10px;
+                }
+                #dig-img4{
+                    width: 100%;
+                    
+                }
+                #dig-text4{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #dig-text4 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #dig-text4 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                #view{
+                    border: solid 1px #ED3237;
+                    border-radius: 10px;
+                    width: 100px;
+                    margin-top: 5px;
+                }
+                #view a{
+                    text-decoration: none;
+                    cursor: pointer;
+                    font-weight: 400;
+                    font-size: 14px;
+                    margin-left: 15%;
+                    
+                }
+                /* section seven styles ends here */
 @media(max-width:650px){
     /* section one media starts here */
     .nav{
@@ -428,5 +603,50 @@ h1,h2,h3,h4,p,a{
     }
 
     /* section five media ends here */
+    /* section seven media starts here */
+    .skill{
+        background-color: #f1faee;
+
+    }
+    .skill, h2, h3{
+        font-weight: 400;
+        font-size: 36px;
+    }
+    .skill h3{
+        margin-left: 10%;
+        margin-top: 15px;
+    }
+    .all{
+        display:block;
+        width: 100%;
+    }
+    .dig-skill-1{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    .dig-skill-2{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    
+    .dig-skill-3{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+
+    }
+    .dig-skill-4{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+
+    /* section seven media ends here */
 
 }
