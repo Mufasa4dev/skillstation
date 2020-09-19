@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 
 }
 body{
@@ -85,10 +86,133 @@ button{
 
 }
 
+#up{
+    display: none;
+}
+
 span a{
     text-decoration: none;
     margin-left: 30px;
 
+}
+
+/* adding last part and media responsive */
+
+
+#or{
+    
+    text-align: center;
+    top: 40px;
+    position: relative;
+    background-color:#F3ECEC;
+    z-index: 1;
+    width: 40px;
+    left: 46%; 
+    
+  
+    
+    
+}
+hr{
+    position: relative;
+    width: 69.2%;
+    left: 15%;
+    top: 31px;
+}
+
+#sign{
+    text-align: center;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}  
+#social{
+    width: 130px;
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+
+}
+#facebook{
+    margin-left: 65px;
+}
+
+
+@media (max-width:1160px){
+    form{
+        width: 80%;
+    }
+    #contain{
+        width: 30%;
+    }    
+    
+}
+
+
+@media (max-width:1060px){
+    form{
+        width: 80%;
+    }
+    #contain{
+        width: 35%;
+    }    
+    
+}
+
+@media (max-width:855px){
+    form{
+        width: 90%;
+      
+    }
+     #contain{
+        width: 40%;
+    }    
+     
+}
+
+@media (max-width: 665px){
+    form{
+        width: 85%;
+      
+     }
+     #contain{
+        width: 50%;
+        margin-left: 40%;
+    }    
+    
+      
+}
+
+@media (max-width: 580px){
+    form{
+        width: 85%;
+      
+     }
+     #contain{
+        width: 65%;
+        margin-left: 20%;
+    }    
+    
+
+@media (min-width: 100px){
+    form{
+        width: 85%;
+      
+     }
+     #contain{
+        width: 80%;
+        margin-left: 10%;
+    }   
+    #down{
+        display: none;
+    } 
+    #up{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+      
 }
 
 
