@@ -226,6 +226,13 @@ h1,h2,h3,h4,p,a{
                     margin-top: 8%;
                 }
                 /* section-five styles ends here */
+                /* section six styles starts here */
+                .sec-vid{
+                    height: 400px;
+                    background-color: #f1faee;
+                    border: solid;
+                }
+                /* section six styles ends here */
 @media(max-width:650px){
     /* section one media starts here */
     .nav{
