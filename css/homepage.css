@@ -871,28 +871,5 @@ h1,h2,h3,h4,p,a{
 
 }
 
-/* i am creating pat */
 
-
-#pat{
-    height: 300px;
-    background-color: #E5E5E5;
-}
-
-#partners{
-    display: flex;
-    margin-left: 19px;
-    margin-top: 50px;
-    width: 97%;    
-}
-
-#first{
-    margin-left: 15px;
-    
-}
-
-#second {
-    background-color: white;
-    
-}
 
