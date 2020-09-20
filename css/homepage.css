@@ -370,10 +370,6 @@ h1,h2,h3,h4,p,a{
                     background-image: url(../images/product\ mag1\ 2.png);
                     border-top-right-radius: 10px;
                 }
-                #dig-img4{
-                    width: 100%;
-                    
-                }
                 #dig-text4{
                      width: 200px;
                      height: 150px;
@@ -407,9 +403,171 @@ h1,h2,h3,h4,p,a{
                     margin-left: 15%;
                     
                 }
+                .sun{
+                    display: flex;
+                }
+                .voc-skill-1{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #voc-img1{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/capentry\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #voc-text1{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #voc-text1 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #voc-text1 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .voc-skill-2{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #voc-img2{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/interior\ decor\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #voc-text2{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #voc-text2 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #voc-text2 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .voc-skill-3{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #voc-img3{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/welder\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+               
+                #voc-text3{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #voc-text3 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #voc-text3 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                .voc-skill-4{
+                    height: 400px;
+                    width: 200px;
+                    margin-top: 30px;
+                    margin-left: 10%;
+                }
+                #voc-img4{
+                    height: 150px;
+                    width: 200px;
+                    background-image: url(../images/builder\ 1.png);
+                    border-top-right-radius: 10px;
+                }
+                #voc-text4{
+                     width: 200px;
+                     height: 150px;
+                     background-color: #1D3557;
+                     border-bottom-left-radius: 10px;
+                     border-bottom-right-radius: 10px;
+                     border: solid #1D3557 1px;
+                }
+                #voc-text4 h4{
+                 color: #ffffff;
+                 font-weight: 400;
+                 font-size: 18px;
+                 margin-left: 2%;
+                }
+                #voc-text4 p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
                 /* section seven styles ends here */
-@media(max-width:650px){
+                /* section eight styles starts here */
+                .sketch{
+                    display: flex;
+                    background-color: #f1faee;
+                }
+                #sketch-img{
+                    width: 450px;
+                    background-image: url(../images/5th\ Illustration.png);
+                    height: 300px;
+                    background-repeat: no-repeat;
+                    margin-left: 10%;
+                    margin-top: 8%;
+                }
+                #sketch-img img{
+                    width: 100%;
+                }
+                #sketch-text{
+                    height: 300px;
+                    width: 500px;
+                    margin-top: 8%;
+                    margin-left: 7%;
+                }
+                #sketch-text h3{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+                #sketch-text p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 8%;
+                }
+                
+                 /* section eight styles starts here
+    
     /* section one media starts here */
+    @media(max-width:650px){
     .nav{
         height: 80px;
     }   
@@ -646,7 +804,69 @@ h1,h2,h3,h4,p,a{
         margin-top: 0px;
         margin-left: 1%;
     }
+    .sun{
+        display:block;
+        width: 100%;
+    }
+    .voc-skill-1{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    .voc-skill-2{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+    
+    .voc-skill-3{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+
+    }
+    .voc-skill-4{
+        height: 400px;
+        width: 200px;
+        margin-top: 0px;
+        margin-left: 1%;
+    }
+
 
     /* section seven media ends here */
+
+    .sketch{
+        display: block;
+        background-color: #f1faee;
+    }
+    #sketch-img{
+        width: 450px;
+        background-image: url(../images/5th\ Illustration.png);
+        height: 300px;
+        background-repeat: no-repeat;
+        margin-left: 1%;
+        margin-top: 0%;
+    }
+    #sketch-img img{
+        width: 100%;
+    }
+    #sketch-text{
+        height: 300px;
+        width: 450px;
+        margin-top: 8%;
+        margin-left: 1%;
+    }
+    #sketch-text h3{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    #sketch-text p{
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 8%;
+    }
 
 }
