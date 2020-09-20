@@ -532,8 +532,42 @@ h1,h2,h3,h4,p,a{
                     color: #ffffff;
                 }
                 /* section seven styles ends here */
-@media(max-width:650px){
+                /* section eight styles starts here */
+                .sketch{
+                    display: flex;
+                    background-color: #f1faee;
+                }
+                #sketch-img{
+                    width: 450px;
+                    background-image: url(../images/5th\ Illustration.png);
+                    height: 300px;
+                    background-repeat: no-repeat;
+                    margin-left: 10%;
+                    margin-top: 8%;
+                }
+                #sketch-img img{
+                    width: 100%;
+                }
+                #sketch-text{
+                    height: 300px;
+                    width: 500px;
+                    margin-top: 8%;
+                    margin-left: 7%;
+                }
+                #sketch-text h3{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+                #sketch-text p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 8%;
+                }
+                
+                 /* section eight styles starts here
+    
     /* section one media starts here */
+    @media(max-width:650px){
     .nav{
         height: 80px;
     }   
@@ -803,5 +837,36 @@ h1,h2,h3,h4,p,a{
 
 
     /* section seven media ends here */
+
+    .sketch{
+        display: block;
+        background-color: #f1faee;
+    }
+    #sketch-img{
+        width: 450px;
+        background-image: url(../images/5th\ Illustration.png);
+        height: 300px;
+        background-repeat: no-repeat;
+        margin-left: 1%;
+        margin-top: 0%;
+    }
+    #sketch-img img{
+        width: 100%;
+    }
+    #sketch-text{
+        height: 300px;
+        width: 450px;
+        margin-top: 8%;
+        margin-left: 1%;
+    }
+    #sketch-text h3{
+        font-weight: 700;
+        font-size: 24px;
+    }
+    #sketch-text p{
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 8%;
+    }
 
 }
