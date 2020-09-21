@@ -6,15 +6,15 @@
 
 body{
         background-color: #F1FAEE;
-        font-family: myfont;
+        font-family: skillstation;
 }
 
     
 
 
 @font-face{
-    font-family: myfont;
-    src: url("fonts/Helvetica.ttf");
+    font-family: skillstation;
+    src: url("../font/Helvetica.ttf");
     }
 
 #nav{
@@ -175,7 +175,6 @@ margin-top: 15px;
 
 /* contents begins */
 #content{
-    border: solid red;
     width: 55%;
     height: 600px;
     position: absolute;
@@ -196,6 +195,7 @@ text-align: center;
     display: inline-block;
     padding: 20px;
     text-decoration: none;
+    font-size: 17px;
 }
 
 #header a:hover{
@@ -279,3 +279,149 @@ font-size: 20px;
     border-color: rgb(143, 19, 19);
 }
 
+
+/* sidebar  */
+#sidebar{
+    width: 22.5%;
+    height: 600px;
+    position: absolute;
+    right: 40px;
+    top: 130px;
+}
+
+#calendar{
+    margin-left: 30px;
+    width: 100%;
+    height: 325px;
+    margin-top: 6px;
+}
+
+#timeline{
+    width: 100%;
+    height: 180px;
+    border: solid #E5E5E5 2px;
+    margin-left: 30px;
+    margin-top: 3px;  
+    padding-top: 10px;
+    background-color: white;
+}
+
+#timeline #time{
+  margin-bottom: 3px;
+  font-size: 20px;
+
+}
+
+#timeline p{
+    text-align: center;
+}
+
+#timeline img{
+   width: 200px;
+   height: 100px; 
+   margin-left: 95px;
+}
+
+#private{
+    width: 100%;
+    height: 180px;
+    border: solid #E5E5E5 2px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+#private h3{
+    padding: 15px;
+}
+
+#private p{
+    padding: 15px;
+}
+
+#private a{
+    text-decoration: none;
+    padding-top: 60px;
+    padding-left: 15px;
+    color: rgb(60, 60, 219);
+}
+
+
+/* footerr styling begins */
+#footer{
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    top: 1150px;
+    left: 270px;
+    color: whitesmoke;
+    background-color: #1D3557;
+}
+
+ #foot1{
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+
+}
+#folo{
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#so{
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+#sk{
+    margin-top: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cont{
+    margin-left: 350px;
+    display: flex;
+}
+
+#cont1 {
+    margin-top: 50px;
+}
+
+
+#cont1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+}
+
+#cont2 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+#cont2 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+}
+
+#cont3 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+    
+} 
