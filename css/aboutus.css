@@ -2,7 +2,7 @@
     font-family: skillstation;
     src: url(../font/Helvetica.ttf);
 } 
-h1,h2,h3,h4,p,a{
+h1,h2,h3,h4,h5,p,a{
     font-family: skillstation;
 }
 *{
@@ -69,3 +69,95 @@ h1,h2,h3,h4,p,a{
        color: #ED3237;
         }
         /* section one styles ends here */
+.bg-wrapper{
+    background-image: url(../images/Carousel\ 10\ 1.png);
+    height: 400px;
+}
+#bg-text{
+    padding: 10%;
+}
+#bg-text h2{
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 52px;
+    text-align: center;
+}
+#bg-text h4{
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+#bg-text h5{
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+        /* section one media starts here */
+    @media(max-width:650px){
+        .nav{
+            height: 80px;
+        }   
+        .nav-logo{
+            position: absolute;
+            left: 5%;
+            top: 2%;
+        }
+        .nav-bar{
+            position: absolute;
+            left: 80%;
+            display: block;
+            color: white;
+            top: 5%;
+        }
+        .nav-menu{
+            position: absolute;
+            left: 40%;
+            top: 14%;
+            height: 40px;
+            width: 60%;
+            z-index: +1;
+            display: none;
+        }
+        .nav-menu a{
+            text-decoration: none;
+            padding: 20px;
+            display: block;
+            color: white;
+            background-color: #ED3237;
+            border-radius: 10px;
+            margin-top: 1%;
+        }
+        .nav-menu :hover{
+        cursor: pointer;
+        text-decoration: none;
+        color: #1D3557;
+        }
+        #sign{
+            border: solid 1px #ED3237;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+            background-color: #ED3237;
+        }
+        #sign:hover{
+         color: #1D3557;
+        }
+        #log:hover{
+            color: #1D3557;
+             }
+        #log{
+            border: solid 1px #ED3237;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+            margin-left: 0px;
+    
+        }
+        .empty{
+            display: block;
+        }
+       
+    }
+    /* section-one media ends here */
