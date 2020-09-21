@@ -31,6 +31,7 @@ h1,h2,h3,h4,p,a{
     left: 30%;
     display: none;
     cursor: pointer;
+    
 }
 .nav-menu{
     position: absolute;
@@ -38,7 +39,53 @@ h1,h2,h3,h4,p,a{
     top: 4%;
     height: 40px;
     width: 60%;
+}    
+
+
+@media(max-width:1285px){
+    .nav-menu{
+        left: 30%;
+        width: 767px;
+
+    }
 }
+
+@media(max-width:1110px){
+    .nav-menu{
+        left: 25%;
+
+    }
+}
+
+@media(max-width:1040px){
+    .nav-menu{
+        left: 22%;
+
+    }
+}
+
+
+@media(max-width:995px){
+    .nav-menu{
+        left: 22%;
+
+    }
+
+    .nav-menu a{
+        display: none;
+
+    }
+        .nav-bar{
+        position: absolute;
+        display: block;
+        color: white;
+        top: 5%;
+        left: 80%;
+    } 
+}
+
+
+
 .nav-menu :hover{
     cursor: pointer;
     text-decoration: none;
@@ -51,6 +98,8 @@ h1,h2,h3,h4,p,a{
     font-weight: normal;
     font-size: 18px;
 }
+
+
 #sign{
     border: solid 1px #ED3237;
     background-color: #ED3237;
@@ -140,7 +189,7 @@ h1,h2,h3,h4,p,a{
             .text-wrap #para-1{
                 margin-left: 5%;
                 color: #ffffff;
-                font-weight: 400;
+                font-weight: 400;     
                 font-size: 18px;
             }
             .text-wrap #para-2{
@@ -621,13 +670,13 @@ h1,h2,h3,h4,p,a{
         left: 5%;
         top: 2%;
     }
-    .nav-bar{
+     .nav-bar{
         position: absolute;
         left: 80%;
         display: block;
         color: white;
         top: 5%;
-    }
+    } 
     .nav-menu{
         position: absolute;
         left: 40%;
