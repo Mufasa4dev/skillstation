@@ -186,13 +186,14 @@ body{
 
         #pat{
             background-color: #E5E5E5;
+            height: 800px;
+
             
 
         }
         #partners{
             display:block;
             text-align: center;
-            border: solid;
             background-color: #E5E5E5;
         
 
