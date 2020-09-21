@@ -920,42 +920,43 @@ h1,h2,h3,h4,p,a{
 
 #footer{
     height: 400px;
-    border: solid;
     background-color: #1D3557;
-
+    
 
 }
+
 #foot1{
     margin-left: 100px;
     margin-top: 50px;
+    float: left;
+
 }
 #folo{
     margin-top: 100px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 #so{
     display: flex;
     margin-top: 5px;
     
 }
+
 #sk{
     margin-top: 70px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* adding second section */
-
-
 #cont{
     margin-left: 530px;
-    margin-top: 100px;
+    display: flex;
 
 }
 
 #cont1 {
-    float: left;
+    margin-top: 100px;
 
 }
 
@@ -964,12 +965,14 @@ h1,h2,h3,h4,p,a{
     list-style: none;
     margin-top: 10px;
     color: white;
+    font-family: skillstation;
 
 }
 
 #cont2 {
-    float: left;
     margin-left: 150px;
+    margin-top: 100px;
+
 
 }
 
@@ -978,9 +981,32 @@ h1,h2,h3,h4,p,a{
     list-style: none;
     margin-top: 10px;
     color: white;
+    font-family: skillstation;
 
 
 }
+
+#cont3 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+    
+
+
+}
+
+
+
+
+
 
 
 
