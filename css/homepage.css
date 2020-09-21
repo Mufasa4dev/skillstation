@@ -871,5 +871,35 @@ h1,h2,h3,h4,p,a{
 
 }
 
+/* adding footer */
+
+#footer{
+    height: 400px;
+    border: solid;
+    background-color: #1D3557;
+
+
+}
+#foot1{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#folo{
+    margin-top: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#so{
+    display: flex;
+    margin-top: 5px;
+    
+}
+#sk{
+    margin-top: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 
