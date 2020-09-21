@@ -225,6 +225,24 @@ h1,h2,h3,h4,p,a{
                     font-size: 18px;
                     margin-top: 8%;
                 }
+                #impact{
+                    background-color: #ED3237;
+                    border: #ED3237 solid;
+                    border-radius: 10px;
+                    height: 50px;
+                    width: 120px;
+                }
+                #impact a{
+                    color: white;
+                    padding: 10px;
+                    text-decoration: none;
+                }
+                #impact:hover{
+                     text-decoration: none;
+                     background-color: #1D3557;
+                     cursor: pointer;
+                     border: #1D3557 solid;
+                }
                 /* section-five styles ends here */
                 /* section six styles starts here */
                 .sec-vid{
@@ -563,9 +581,36 @@ h1,h2,h3,h4,p,a{
                     font-size: 18px;
                     margin-top: 8%;
                 }
-                
-                 /* section eight styles starts here
-    
+                .link{
+                    display: flex;
+                }
+                  
+                #signup-1{
+                    border: solid #ED3237;
+                    background-color: #ED3237;
+                    height: 40px;
+                    border-radius: 10px;
+                    width: 200px;
+                }
+                #signup-1 a{
+                    text-decoration: none;
+                    color: #ffffff;
+                    margin-left: 10px;
+                }
+                #signup-2{
+                    border: solid #ED3237 1px;
+                    width: 200px;
+                    margin-left: 10%;
+                    height: 40px;
+                    border-radius: 10px;
+                }
+                #signup-2 a{
+                    text-decoration: none;
+                    color: black;
+                    margin-left: 10px;
+                }
+
+                 /* section eight styles ends here
     /* section one media starts here */
     @media(max-width:650px){
     .nav{
