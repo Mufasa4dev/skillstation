@@ -1,281 +1,201 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    
 }
 
 body{
-        background-color: #F1FAEE;
-        font-family: myfont;
+    font-family: skillstation;
 }
-
-    
-
 
 @font-face{
     font-family: myfont;
     src: url("fonts/Helvetica.ttf");
     }
-
-#nav{
+    
+#main{
+    background-image: url('images/banner.png');
+    background-size: cover;
     width: 100%;
+    height: 850px;
+    
+}
+
+
+#form1{
+    width: 45%;
+    height: 800px;
+    background-color: #F3ECEC;
+    position: absolute;
+    right: 15px;
+    margin-top: 15px;
+    font-family: myfont;
+}
+
+#content{
+ width: 85%;
+ height: 800px;
+ margin: auto;
+ margin-top: 15px;
+}
+
+#logo img{
     height: 80px;
-    background-color: #1D3557;
-    position: fixed;
-    z-index: 1;
+    width: 25%;
+
 }
 
-#menubar {
-display: inline-block;
-margin-left: 70px;
-margin-top: 15px;
-}
-
-#logo{
+#account p{
     display: inline-block;
-    margin-left: 60px;
+    font-family: myfont;
 }
 
-
-#search{
-    display: inline-block;
-    position: absolute;     
-}
-
-#search input{
-    position: relative;
-    height: 30px;
-    width: 130%;
-    outline: none;
-      left: 287px;
-    margin-top: 20px;
-
-}
-
-#search ::placeholder{
-    padding-left: 100px;
-}
-
-#search button{
- position: absolute;
-    left: 249px;
-    height: 28.3px;
-    top: 21.2px;
-    width: 20%;
-    background-color: white;
-    border: none;
-    outline: none;
-    
-}
-
-#notification{
-    display: inline-block;
-    position: absolute;
-    right: 220px;
-    margin-top: 25px;
-}
-
-#name{
-    display: inline-block;
-    position: absolute;
-    right: 120px;
-    color: white;
-    font-size: 18px;
-    margin-top: 28px;
-}
-
-#myphoto img{
-    display: inline-block;
-    height: 55px;
-    width: 4%;
-    position: absolute;
-    right: 40px;
-    top: 12px;
-    border-radius: 50%;
-}
-
-#dashboard{
-    width: 17%;
-    height: 490px;
-    background-color: #E5E5E5;
-    margin-top: 100px;
-    margin-left: 15px;
-   position: fixed;
-   z-index: -1;
-
-    
-}
-
-#dashboard a{
+#account a{
     display: inline-block;
     text-decoration: none;
-     color: #1D3557;
-     position: absolute;
-     margin-top: 18px;
-     margin-left: 15px;
-     font-size: 15px;
-    
-
+    color: royalblue;
+    font-family: myfont;
 }
 
-#dashboard img{
-    margin-bottom: 5px; 
-    padding-left: 10px;
+#formarea{
+ margin-top: 30px;
+}
+
+#formarea label{
+  display: block;  
+  margin-bottom: 5px;
+}
+
+#formarea input{
+    display: block;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 100%;
+    text-decoration: none;
+    outline: none;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: #F3ECEC;
+}
+
+::placeholder{
+    padding-left: 15px;
+}
+
+
+#formarea input:hover{
+   border-color: rgb(12, 77, 197);
+}
+
+ #formarea .name[type="text"], textarea {
+    background-color : #F3ECEC; 
+  
+  }
+
+
+  #formarea .email[type="text"], textarea {
+    background-color : #F3ECEC; 
+  
+  }
+
+
+  #formarea .pass[type="password"], textarea {
+    background-color : #F3ECEC;  
+  }
+
+  
+  #formarea .eye{
+    position: absolute; 
+    right: 48px; 
+    bottom: 379px;
+     width: 8%;
+     height: 33px;
+     border: none;
+     outline: none;
+     background-color: #F3ECEC;
+  }
+
+  .eye img{
+      width: 20px;
+      height: 20px;
+      border: none;
+  }
+
+
+
+#check{
+    font-size: 14px;
+}
+
+#submit{
+    margin-top: 22px;
+    width: 100%;
+    height: 45px;
+    padding-top: 8px;
+    background-color: rgb(219, 33, 33);
+    text-align: center;
+    border: solid  rgb(219, 33, 33);
+    border-radius: 8px;
+    
+}
+
+#submit a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
   
 }
 
-
-#dash{
-    width: 100%;
-  padding-top: 20px;
-  border-bottom: solid 3px #aaa;
+#submit:hover{
+    border-color: royalblue;
 }
 
 
-#courses{
-    width: 100%;
-    padding-top: 20px;
-    border-bottom: solid 3px #aaa;
+#check p{
+ margin-left: 19px;
 }
 
-
-#biodata{
-    width: 100%;
-  padding-top: 20px;
-  border-bottom: solid 3px #aaa;
+#terms {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 80px;
 }
 
-#files{
-    width: 100%;
-  padding-top: 20px;
-  border-bottom: solid 3px #aaa;
+#terms a{
+    text-decoration: none;
+    color: royalblue;
 }
 
-
-
-#certificate{
-    width: 100%;
-  padding-top: 20px;
-  border-bottom: solid 3px #aaa;
+#option{
+    margin-top: 30px;
 }
 
-
-#logout{
-    width: 100%;
-  padding-top: 20px;
-  border-bottom: solid 3px #aaa;
-}
-
-
-
-#sectwo{
-    background-color: #F1FAEE;
-}
-
-
-/* contents begins */
-#content{
-    border: solid red;
-    width: 55%;
-    height: 600px;
+#option h3{
+    background-color: #F3ECEC;
     position: absolute;
-    left: 263px;
-    top: 100px;
-    background-color: #F1FAEE;
-
+    margin-left: 240px;
+    width: 7%;
+    text-align: center;
+    margin-top: -15px;
 }
 
-#content h2{
+
+#signup{
+    margin-top: 30px;
+    text-align: center;
+}
+#links{
+margin-top: 15px;
 text-align: center;
+padding-left: 30px;
+padding-right: 30px;
 }
 
-#header a{
-    margin-top: 10px;
-    font-size: 15px;
-    color: #1D3557;
-    display: inline-block;
-    padding: 20px;
-    text-decoration: none;
+#pic2{
+    margin-left: 30px;
 }
 
-#header a:hover{
-border: #1D3557 solid;
-border-top: 0px;
-border-left: 0px;
-border-right: 0px;
-padding-bottom: 0px;
+#pic3{
+    margin-left: 40px;
 }
-
-#course{
- width: 100%;
- display: flex;
- justify-content: space-around;
- margin-top: 10px;
- margin-bottom: 40px;
-}
-
-#web{
-    width: 30%;
-    height: 400px;
-    background-color: #1D3557;
-    color: white;
-    border-radius: 10px;
-     display: inline-block;
-}
-
-#web img{
- width: 100%;
- height: 150px;
- margin-bottom: 10px;
-}
-
-#web h4{
-margin-bottom: 15px;
-padding-left: 15px;
-font-size: 20px;
-}
-
-#web p{
- font-size: 15px;
- padding-left: 10px;
-}
-
-
- #go-nav #go{
-    text-decoration: none;
-    color: white;
-    display: block;
-    border: solid 2px #878B8D;
-    width: 90%;
-    height: 37px;
-    margin-top: 15px;
-    text-align: center;
-    margin-left: 11px;
-    padding-top: 7px;
-    background-color: #878B8D;
-    border-radius: 5px;
-}
-
-#go-nav #go:hover{
-    border-color: rgb(143, 19, 19);
-}
-
-#go-nav #leave{
-    text-decoration: none;
-    color: white;
-    display: block;
-    border: solid 2px #878B8D;
-    width: 90%;
-    height: 37px;
-    margin-top: 15px;
-    text-align: center;
-    margin-left: 11px;
-    padding-top: 7px;
-    background-color: #1D3557;
-    border-radius: 5px;
-} 
-
-#go-nav #leave:hover{
-    border-color: rgb(143, 19, 19);
-}
-
