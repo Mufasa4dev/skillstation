@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: skillstation;
-}
 
 @font-face{
     font-family: skillstation;
@@ -20,6 +17,7 @@ body{
     background-color: #1D3557;
     position: fixed;
     z-index: 1;
+    font-family: skillstation;
 }
 
 #menubar {
@@ -45,7 +43,7 @@ margin-top: 15px;
     width: 130%;
     outline: none;
       left: 287px;
-    margin-top: 20px;
+     margin-top: 20px;
 
 }
 
@@ -90,3 +88,218 @@ margin-top: 15px;
     top: 12px;
     border-radius: 50%;
 }
+
+    /* End of section 1 */
+
+    .top{
+        width: 100%;
+        height: 120px;
+        background-color: #CED5DA;
+        position: absolute;
+        top: 80px;
+    }
+
+    #small-menu{
+        text-align: center;
+    }
+
+
+    #small-menu #con{
+       display: inline-block;
+       padding-top: 40px;
+       padding-right: 30px;
+       padding-left: 50px;
+    }
+
+    #small-menu a{
+      text-decoration: none;
+      color: black;  
+    }
+
+    /* End of section 2 */
+    #sec-three{
+        width: 70%;
+        height: 2000px;
+        position: absolute;
+        top: 200px;
+        margin-left: 220px;
+        margin-top: 20px;
+        /* border: red solid 1px; */
+    }
+
+    #intro{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+     #head{
+         margin-top: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-family: cursive;
+    }
+
+
+    #intro #num{
+        margin-top: 20px;
+        border: solid 1px #1D3557;
+        color: white;
+        width: 30px;
+        height: 30px;
+        background-color: #1D3557;
+        padding-top: 5px;
+        float: left;
+        margin-left: 100px;
+        font-family: cursive;
+        text-align: center;
+    }
+
+     #h4{
+       float: right;
+       padding-top: 31px;
+        font-size: 15px;
+        margin-right: 100px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;     
+    }
+
+    #progress{
+        width: 78%;
+        height: 5px;
+        margin-top: 94px;
+        border: solid #CED5DA 1px;
+        background-color: #CED5DA;
+        border-left: 70px solid #ED3238;
+        margin-left: 99px;
+        border-radius: 15px;
+    }
+
+
+    /* video editing begins */
+    #video-intro iframe{
+        width: 78%;
+        height: 350px;
+        border: solid #1D3557 1px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    
+    #download a{
+        text-decoration: none;
+        color: #ED3238;
+    }
+
+    #download #pdf{
+        float: left;
+        margin-left: 100px;
+    }
+
+    #download #video{
+        float: right;
+        margin-right: 110px;
+    }
+
+
+    #getting{
+        margin-top: 90px;
+        font-family: skillstation;
+        margin-left: 100px;
+        font-size: 25px;
+    }
+
+
+    #getting-border{
+        width: 22%;
+        height: 2px;
+        border: solid #CED5DA 1px;
+        background-color: #CED5DA;
+        margin-left: 99px;
+        border-radius: 15px;
+    }
+
+    
+    #html{
+        margin-top: 15px;
+        
+    }
+
+    #html h2{
+        margin-left: 100px;
+        color: #1D3557;
+        font-size: 30px;
+        font-family: skillstation;
+    }
+
+    #html p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 110px;
+        margin-top: 5PX;
+        color: darkcyan;
+    }
+
+#comment{
+    margin-top: 60px;
+    font-family: skillstation;
+    margin-left: 100px;
+    
+       
+}
+
+#comment-border{
+    width: 9%;
+    height: 2px;
+    border: solid #1D3557 1px;
+    background-color: #1D3557;
+    border-radius: 15px;
+}
+
+#comment-photo img{
+    margin-top: 10px;
+    float: left;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+#comment-photo #comm{
+    margin-top: 40px;
+    margin-left: 10px;
+    float: left;
+    display: block;
+   
+}
+
+#comm textarea{
+    margin-top: 5px;
+    width: 280%;
+    height: 50px;
+}
+
+
+
+/* comment2 begins here */
+ #comment2{
+    margin-top: 140px;
+    font-family: skillstation;
+    margin-left: 100px;     
+}
+
+#comment2 img{
+    margin-top: 10px;
+    float: left;
+    border-radius: 50%;
+   
+}
+
+#comment2 #text #jane{
+    padding-top: 40px;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+
+#comment2 #text #who{
+    font-size: 12px;
+    margin-left: 40px;
+    padding-left: 40px;
+    margin-top: 5px;
+}
+
