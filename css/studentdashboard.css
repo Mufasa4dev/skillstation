@@ -94,6 +94,8 @@ margin-top: 15px;
     border-radius: 50%;
 }
 
+
+/* section2 editing begins */
 #dashboard{
     width: 17%;
     height: 490px;
@@ -101,9 +103,7 @@ margin-top: 15px;
     margin-top: 100px;
     margin-left: 15px;
    position: fixed;
-   z-index: -1;
-
-    
+   z-index: -1;  
 }
 
 #dashboard a{
@@ -114,14 +114,11 @@ margin-top: 15px;
      margin-top: 18px;
      margin-left: 15px;
      font-size: 15px;
-    
-
 }
 
 #dashboard img{
     margin-bottom: 5px; 
-    padding-left: 10px;
-  
+    padding-left: 10px; 
 }
 
 
@@ -152,7 +149,6 @@ margin-top: 15px;
 }
 
 
-
 #certificate{
     width: 100%;
   padding-top: 20px;
@@ -165,7 +161,6 @@ margin-top: 15px;
   padding-top: 20px;
   border-bottom: solid 3px #aaa;
 }
-
 
 
 #sectwo{
