@@ -20,11 +20,14 @@ h1,h2,h3,h4,p,a{
     height: 80px;
     width: 100%;
     background-color: #1D3557;
+
+    position: fixed;
+    z-index: 1;
 }
 .nav-logo{
     position: absolute;
     left: 7%;
-    top: 1%;
+    top: 12%;
 }
 .nav-bar{
     position: absolute;
@@ -36,10 +39,13 @@ h1,h2,h3,h4,p,a{
 .nav-menu{
     position: absolute;
     left: 40%;
-    top: 4%;
+    top: 35%;
     height: 40px;
     width: 60%;
-}    
+}   
+.main{
+    padding-top: 80px;
+} 
 
 
 @media(max-width:1285px){
@@ -79,7 +85,7 @@ h1,h2,h3,h4,p,a{
         position: absolute;
         display: block;
         color: white;
-        top: 5%;
+        top: 19%;
         left: 80%;
     } 
 

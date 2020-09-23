@@ -14,19 +14,19 @@ body{
     height: 570px;
     background-color:#F3ECEC;
     margin-left: 50%;
-    margin-top: 20px;
-    border-top-right-radius: 10%;
-    border-bottom-left-radius: 10%;
+    margin-top: 40px;
+    
 
 } 
 #bg{
     background-image: url("../loginimages/pexels-christina-morillo-1181355\ 2.svg");
     background-size: cover; 
-    height: 600PX;
+    height: 650PX;
     float: left;
     width: 99.5%;
     margin-top: 0px;
     padding-top: 0PX;
+    
     
 }
 #logo{
