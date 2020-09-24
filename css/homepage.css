@@ -135,14 +135,12 @@ h1,h2,h3,h4,p,a{
         padding: 5px;
         border-radius: 10px;
         margin-left: 0px;
-
-
     }
+    
     .empty{
         display: block;
     }
    
-}
 
 /* end of media screen */
 
@@ -1112,7 +1110,7 @@ h1,h2,h3,h4,p,a{
 #cont3 ul li{
     list-style: none;
     margin-top: 10px;
-    color: white;
+    color: rgb(212, 184, 184);
     font-family: skillstation;
     
 }

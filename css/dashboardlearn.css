@@ -175,6 +175,7 @@ margin-top: 15px;
 
 
     /* video editing begins */
+   
     #video-intro iframe{
         width: 78%;
         height: 350px;
@@ -189,9 +190,58 @@ margin-top: 15px;
         color: #ED3238;
     }
 
-    #download #pdf{
+    #download #complete{
         float: left;
         margin-left: 100px;
+        width: 28%;
+        height: 5px;
+        border: solid #CED5DA 1px;
+        background-color: #CED5DA;
+        border-left: 20px solid #ED3238;
+        border-radius: 15px;
+    }
+
+    #download #leave{
+        margin-left: 100px;
+        float: left;
+    }
+
+    #download #video{
+        float: right;
+        margin-right: 110px;
+    }
+   
+   
+   
+    /* html video editing begins */
+    #video-intro iframe{
+        width: 78%;
+        height: 350px;
+        border: solid #1D3557 1px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    
+    #download a{
+        text-decoration: none;
+        color: #ED3238;
+    }
+
+    #download #complete{
+        float: left;
+        margin-left: 100px;
+        width: 28%;
+        height: 5px;
+        border: solid #CED5DA 1px;
+        background-color: #CED5DA;
+        border-left: 20px solid #ED3238;
+        border-radius: 15px;
+    }
+
+    #download #complete p{
+        margin-left: 10px;
+        font-size: 13px;
     }
 
     #download #video{
@@ -278,7 +328,7 @@ margin-top: 15px;
 
 /* comment2 begins here */
  #comment2{
-    margin-top: 140px;
+    margin-top: 120px;
     font-family: skillstation;
     margin-left: 100px;     
 }
@@ -302,4 +352,212 @@ margin-top: 15px;
     padding-left: 40px;
     margin-top: 5px;
 }
+
+/* Back to course editing */
+#navigate{
+    margin-top: 70px;
+    width: 100%;
+    height: 60px;
+    font-family: skillstation;
+}
+
+#navigate a{
+    text-decoration: none;
+    color: black;
+}
+
+#back{
+    width: 20%;
+    height: 60px;
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+}
+
+
+#back p{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+
+#divider{
+    float: left;
+    height: 40px;
+    width: 0.5%;
+    border: solid #CED5DA 0.1px;
+    margin-left: 200px;
+    background-color: #CED5DA;
+}
+
+#proceed{
+    display: inline-block;
+    float: right;
+    margin-right: 120px;
+}
+
+#proceed p{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+/* download */
+#download-part{
+    margin-top: 10px;
+    font-family: skillstation;
+}
+
+#downloads{
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+}
+
+#share {
+   display: inline-block; 
+   float: right;
+   margin-right: 120px;
+}
+
+
+/*  share video */
+#share-part{
+    margin-top: 35px;
+    font-family: skillstation;
+
+}
+
+#share-part a{
+    text-decoration: none;
+    color: black;
+}
+
+#transcript{
+    display: inline-block;
+    float: left;
+    margin-left: 100px;
+
+}
+
+#social{
+   display: inline-block; 
+   float: right;
+   margin-right: 120px;
+}
+
+#social img{
+    padding-left: 15px;
+
+}
+
+#chat-box{
+    margin-top: -400px;
+    margin-left: 730px;
+    border: solid #1D3557 1px;
+    height: 30px;
+    width: 10%;
+    text-align: center;
+    padding-top: 4px;
+    border-radius: 8px;
+    background-color: #1D3557;
+    
+}
+
+#chat-box a{
+    text-decoration: none;
+    color: white;
+
+}
+
+#chat-box:hover{   
+    background-color: burlywood;
+}
+
+#chat-box a:hover{
+     color: #1D3557;
+}
+
+
+
+
+/* sec-four begins */
+#footer{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 1940px;
+    color: whitesmoke;
+    background-color: #1D3557;
+}
+
+ #foot1{
+    margin-left: 140px;
+    margin-top: 40px;
+    float: left;
+
+}
+#folo{
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#so{
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+#sk{
+    margin-top: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cont{
+    margin-left: 550px;
+    display: flex;
+}
+
+#cont1 {
+    margin-top: 50px;
+}
+
+
+#cont1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+}
+
+#cont2 {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+#cont2 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+}
+
+#cont3 {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+    
+} 
+
+
 
