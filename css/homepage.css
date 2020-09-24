@@ -95,6 +95,40 @@ h1,h2,h3,h4,p,a{
         position: absolute;
         display: block;
         color: white;
+        background-color: #ED3237;
+        border-radius: 10px;
+        margin-top: 1%;
+    }
+    .nav-menu :hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1D3557;
+    }
+    #sign{
+        border: solid 1px #ED3237;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #ED3237;
+    }
+    #sign:hover{
+     color: #1D3557;
+    }
+    #log:hover{
+        color: #1D3557;
+         }
+    #log{
+        border: solid 1px #ED3237;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+    
+    .empty{
+        display: block;
+    }
+   
         top: 19%;
         left: 80%;
     } 
@@ -1072,7 +1106,7 @@ h1,h2,h3,h4,p,a{
 #cont3 ul li{
     list-style: none;
     margin-top: 10px;
-    color: white;
+    color: rgb(212, 184, 184);
     font-family: skillstation;
     
 }
