@@ -75,8 +75,9 @@ h1,h2,h3,h4,h5,p,a{
 
         /* section two styles starts here */
 .bg-wrapper{
-    background-image: url(../images/Carousel\ 10\ 1.png);
-    height: 400px;
+    background-image: url(../images/Group\ 56\(1\).png);
+    height: 700px;
+    background-size: cover;
 }
 #bg-text{
     padding: 10%;
@@ -541,9 +542,22 @@ h1,h2,h3,h4,h5,p,a{
     margin-top: 5px;
     border-radius: 50%;
 }
-
 /* team4 ends here */
 /* section four ends here */
+/* section five */
+#cola1 h2{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+#partners{
+    display: flex;
+}
+
+/* section five */
 
 
         /* section one media starts here */
@@ -1034,8 +1048,13 @@ h1,h2,h3,h4,h5,p,a{
 }
 
         /* section four media ends here */
-
-
+/* section five media starts here */
+#partners{
+    display: block;
+}
+/* section five media ends here */
+       
+        
 
 
 
