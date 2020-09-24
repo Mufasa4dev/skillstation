@@ -75,8 +75,9 @@ h1,h2,h3,h4,h5,p,a{
 
         /* section two styles starts here */
 .bg-wrapper{
-    background-image: url(../images/Carousel\ 10\ 1.png);
-    height: 400px;
+    background-image: url(../images/Group\ 56\(1\).png);
+    height: 700px;
+    background-size: cover;
 }
 #bg-text{
     padding: 10%;
@@ -541,9 +542,120 @@ h1,h2,h3,h4,h5,p,a{
     margin-top: 5px;
     border-radius: 50%;
 }
-
 /* team4 ends here */
 /* section four ends here */
+/* section five */
+#cola1 h2{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+#partners{
+    display: flex;
+}
+#btn{
+    border: solid #ED3237;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #ED3237;
+}
+#btn a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+    margin: 20px;
+
+}
+
+/* section five */
+/* section six */
+#footer{
+    height: 390px;
+    background-color: #1D3557;
+    margin-top: 15px;
+}
+
+#foot1{
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+
+}
+#folo{
+    margin-top: 100px;
+    color: white;
+}
+
+#so{
+    display: flex;
+    margin-top: 5px;
+}
+#last{
+    background-color: #1D3557;
+}
+
+#sk{
+    margin-left: 100px;
+    color: white;
+    background-color: #1D3557;
+}
+
+#cont{
+    margin-left: 530px;
+    display: flex;
+
+}
+
+#cont1 {
+    margin-top: 100px;
+
+}
+
+
+#cont1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+
+}
+
+#cont2 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+
+}
+
+
+#cont2 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+
+
+}
+
+#cont3 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+    
+}
+/* section six ends */
 
 
         /* section one media starts here */
@@ -1034,14 +1146,62 @@ h1,h2,h3,h4,h5,p,a{
 }
 
         /* section four media ends here */
+/* section five media starts here */
+#partners{
+    display: block;
+}
+/* section five media ends here */
+       /* section six media starts here */
+       #footer{
+        display: block;
+        height: 500px;
+    }
+    #foot1{
+        display: flex;
+        margin-left: 7px;   
+    }
+    #folo{
+        margin-top: 15px;
+        margin-left: 5px;
+        width: 130px;
+        font-size: 10px;
+        font-weight: 0px;
+    }
+    #so{
+        margin-left: 0px;
+        margin-top: 17px;   
+    }
+    #sk{
+        display: block;
+        margin-top: 0px;
+    }
+    #cont{
+        display: block;
+        margin-left: 0px;
+    }
+    #cont1{
+        float: left;
+    }
+    #cont2{
+        float: left;
+        margin-left: 20px;
+    }
+    #cont3{
+        float: left;
+        margin-left: 20px;
+    }
+    #sk{
+        display: block;
+    }
+
+
+    
 
 
 
 
 
-
-
-
+ /* section six media ends here */
     }
 
 
