@@ -202,3 +202,27 @@ body{
     }
 }
 
+ @media (min-width:400px){
+        #partners1{
+           display: none;
+    
+        }
+
+        #pat{
+            background-color: #E5E5E5;
+            height: 800px;
+
+            
+
+        }
+        #partners{
+            display:block;
+            text-align: center;
+            background-color: #E5E5E5;
+        
+
+     
+        }
+    
+}
+
