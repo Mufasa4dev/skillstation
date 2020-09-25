@@ -232,21 +232,23 @@ h1,h2,h3,h4,p,a{
             /* section-three styles ends here */
               /* section-four styles starts here */
               .big-wrap{
-                background-color:#1D3557;
+                background-color:#457B9D;
+
                 display: flex;
-                height: 500px;
+                height: 700px;
             }
             .text-wrap{
                 width: 600px;
                 height: 400px;
                 margin-left: 10%;
-                margin-top: 20px;
+                margin-top: 100px;
             }
             .text-wrap #para-1{
                 margin-left: 5%;
                 color: #ffffff;
                 font-weight: 400;     
                 font-size: 18px;
+                justify-content: space-around;
             }
             .text-wrap #para-2{
                 margin-left: 5%;
@@ -254,17 +256,39 @@ h1,h2,h3,h4,p,a{
                 color: #ffffff;
                 font-weight: 400;
                 font-size: 18px;
+                justify-content: right;
             }
             #join{
-                padding: 1%;
-                width: 200px;
-                height: 40px;
+                width: 551px;
+                height: 60px;
                 margin-top: 10%;
-                margin-left: 20%;
-                background-color: #ED3237;
+                margin-left: 5%;
                 border-radius: 10px;
+                
                
             }
+
+            #don{
+                background: #DD2222;
+                border-radius: 10px;
+                width: 200px;
+                height: 40px;
+                border: none;
+            }
+            
+            #emp{
+                background: #457B9D;
+                border-radius: 10px;
+                width: 200px;
+                height: 40px;
+                border: none;
+                border: 2px solid #DD2222;
+                box-sizing: border-box;
+                margin-left: 146px;
+                
+            }
+
+
             #join a{
                 color: #ffffff;
                 font-size: 18px;
@@ -275,15 +299,22 @@ h1,h2,h3,h4,p,a{
                 color: #1D3557;
                 text-decoration: none;
             }
+
+            .img-wrap{
+                margin-top: 80px;
+            }
             #wrap-1{
                 position: absolute;
                 height: 400px;
                 width: 450px;
                 margin-top: 20px;
                 margin-left: 10%;
-                background-image: url(../images/sdg\ 4\ 1.png);
+                background-image: url(../images/first\ pix\ 1.png);
                 background-color: #457b9d;
+                mix-blend-mode: luminosity;
             }
+
+
             #wrap-1 img{
                 width: 100%;
             }
@@ -292,7 +323,7 @@ h1,h2,h3,h4,p,a{
                 height: 400px;
                 width: 450px;
                 margin-left: 6%;
-                background-image: url(../images/sdg\ 4\ 1.png);
+                background-image: url(../images/first\ pix\ 1.png);
                 margin-top: 60px;
             }
             #wrap-2 img{
@@ -300,14 +331,21 @@ h1,h2,h3,h4,p,a{
             }
                 /* section-four styles ends here */
                 /* section-five styles starts here */
+
+                #comp{
+                    height: 1100px;
+                    background-color: #f1faee;
+
+                }
+
                 .cover{
                     display: flex;
                     background-color: #f1faee;
                 }
                 #cover-img{
                     width: 450px;
-                    background-image: url(../images/4th\ Illustration.png);
-                    height: 300px;
+                    background-image: url(../images/login\ opt\ 2\ 1.png);
+                    height: 350px;
                     background-repeat: no-repeat;
                     margin-left: 10%;
                     margin-top: 8%;
@@ -334,12 +372,15 @@ h1,h2,h3,h4,p,a{
                     background-color: #ED3237;
                     border: #ED3237 solid;
                     border-radius: 10px;
-                    height: 50px;
-                    width: 120px;
+                    height: 40px;
+                    width: 150px;
+                    text-align: center;
+                    padding-top: 4px;
+                    margin-left: 200px;
                 }
                 #impact a{
                     color: white;
-                    padding: 10px;
+                    text-align: center;
                     text-decoration: none;
                 }
                 #impact:hover{
@@ -349,6 +390,95 @@ h1,h2,h3,h4,p,a{
                      border: #1D3557 solid;
                 }
                 /* section-five styles ends here */
+
+                /* section-five part2 begins here */
+
+                
+                .cover1{
+                    display: flex;
+                    background-color: #f1faee;
+                }
+                #cover-img1 {
+                    width: 450px;
+                    background-image: url(../images/text\ 3\ 2.png);
+                    height: 350px;
+                    background-repeat: no-repeat;
+                    margin-left: 10%;
+                    margin-top: 8%;
+                }
+                #cover-img1 img{
+                    width: 100%;
+                }
+                #cover-text1{
+                    height: 300px;
+                    width: 500px;
+                    margin-top: 8%;
+                    margin-left: 7%;
+                }
+                #cover-text1 h3{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+                #cover-text1 p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 8%;
+                }
+                #impact1{
+                    border-radius: 10px;
+                    height: 50px;
+                    width: 550px;
+                    padding-top: 0px;
+                    margin-top: 60px;
+                }
+
+                #su1{
+                    width: 200px;
+                    background: #ED3237;
+                    border-radius: 10px;
+                    height: 40px;
+                    border: none;
+
+
+                }
+
+                #su2{
+                    width: 200px;
+                    border-radius: 10px;
+                    height: 40px;
+                    margin-left: 100px;
+                    border: 3px solid #ED3237;
+                    box-sizing: border-box;
+                    border-radius: 10px;
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    color: black;
+
+                    
+                }
+                #su1 a{
+                    color: white;
+                }
+                #su2 a{
+                    color: black;
+                }
+
+                #impact1 a{
+                   
+                    text-align: center;
+                    text-decoration: none;
+                }
+                #impact1:hover{
+                     text-decoration: none;
+                     background-color: #1D3557;
+                     cursor: pointer;
+                     border: #1D3557 solid;
+                }
+
+                /* section-five part2 ends here */
+
+
                 /* section six styles starts here */
                 .sec-vid{
                     height: 400px;
