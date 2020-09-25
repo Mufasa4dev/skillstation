@@ -92,6 +92,36 @@ h1,h2,h3,h4,h5,p,a{
             margin-top: 25%;
         }
 /* section two styles ends here */
+/* section three starts here */
+ .all{
+     display: flex;
+ }
+ #left{
+     margin-left: 5%;
+     margin-top: 50px;
+     width: 550px;
+ }
+ #left input{
+  display: block;
+  margin-top: 20px;
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+
+ }
+ #right{
+     border: solid 1px;
+     border-radius: 5px;
+     margin-left: 10%;
+     width: 350px;
+     margin-top: 50px;
+ }
+ #right p{
+margin-top: 15px;
+ }
+ #right h5{
+     margin-top: 10px;
+ }
            @media(max-width:650px){
            /* section one media starts here */
             .nav{
