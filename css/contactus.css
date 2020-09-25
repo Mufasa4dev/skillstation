@@ -1,0 +1,151 @@
+@font-face {
+    font-family: skillstation;
+    src: url(../font/Helvetica.ttf);
+} 
+h1,h2,h3,h4,h5,p,a{
+    font-family: skillstation;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* section-one styles starts here */
+.nav{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #1D3557;
+    position: fixed;
+}
+.nav-logo{
+    position: absolute;
+    left: 7%;
+    top: 1%;
+}
+.nav-bar{
+    position: absolute;
+    left: 30%;
+    display: none;
+    cursor: pointer;
+}
+.nav-menu{
+    position: absolute;
+    left: 40%;
+    top: 19%;
+    height: 40px;
+    width: 60%;
+    padding: 10px;
+}
+.nav-menu :hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #ED3237;
+    }
+.nav-menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    
+}
+#abt{
+    color: #ED3237;
+}
+#sign{
+    border: solid 1px #ED3237;
+    background-color: #ED3237;
+    color:#ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    height: 60px;
+}
+#log{
+    border: solid 1px #ED3237;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#sign:hover{
+    color: #1D3557;
+   }
+   #log:hover{
+       color: #ED3237;
+        }
+        /* section one styles ends here */
+           /* section one media starts here */
+   
+           @media(max-width:650px){
+            .nav{
+                height: 80px;
+                position: fixed;
+            }   
+            .nav-logo{
+                position: absolute;
+                left: 5%;
+                top: 2%;
+            }
+            .nav-bar{
+                position: absolute;
+                left: 80%;
+                display: block;
+                color: white;
+                top: 10%;
+                cursor: pointer;
+            }
+            .nav-menu{
+                position: absolute;
+                left: 40%;
+                top: 14%;
+                height: 40px;
+                width: 60%;
+                z-index: +1;
+                display: none;
+            }
+             #hom{
+                margin-top: 15%;
+            }
+            .nav-menu a{
+                text-decoration: none;
+                padding: 20px;
+                display: block;
+                color: white;
+                background-color: #ED3237;
+                border-radius: 10px;
+                margin-top: 1%;
+            }
+            .nav-menu :hover{
+            cursor: pointer;
+            text-decoration: none;
+            color: #1D3557;
+            }
+            #abt{
+                color: #ffffff;
+            }
+            #sign{
+                border: solid 1px #ED3237;
+                color: white;
+                padding: 5px;
+                border-radius: 10px;
+                background-color: #ED3237;
+            }
+            #sign:hover{
+             color: #1D3557;
+            }
+            #log:hover{
+                color: #1D3557;
+                 }
+            #log{
+                border: solid 1px #ED3237;
+                color: white;
+                padding: 5px;
+                border-radius: 10px;
+                margin-left: 0px;
+        
+            }
+            .empty{
+                display: block;
+            }
+        }
