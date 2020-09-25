@@ -538,21 +538,48 @@ h1,h2,h3,h4,p,a{
                     text-align: center;
                     text-decoration: none;
                 }
-                #impact1:hover{
+                #su1:hover{
                      text-decoration: none;
-                     background-color: #1D3557;
                      cursor: pointer;
-                     border: #1D3557 solid;
+                     background-color: #1D3557;
+                
                 }
+                #su2:hover{
+                    text-decoration: none;
+                    cursor: pointer;
+                    background-color: #1D3557;
+                    color: white;
+                    border: #1D3557;
+               
+               }
+                  #su2:hover{
+                    text-decoration: none;
+                    cursor: pointer;
+                    background-color: #1D3557;
+                    color: white;
+                    border: #1D3557;
+               
+               }
+
+               #su2 a:hover{
+                text-decoration: none;
+                color: white;
+                
+           
+           }
+
+
+
 
                 /* section-five part2 ends here */
 
 
                 /* section six styles starts here */
                 .sec-vid{
+                    width: 100%;
                     height: 400px;
-                    background-color: #f1faee;
-                    border: solid;
+                    background: #E5E5E5;
+                    text-align: center;
                 }
                 /* section six styles ends here */
                 /* section seven styles starts here */
@@ -1010,7 +1037,7 @@ h1,h2,h3,h4,p,a{
                 margin-top: 5px;
                 border-radius: 50%;
                 margin-left: 7%;
-            }
+                }
             .oval{
                 display: flex;
                 margin: 20px;
@@ -1305,7 +1332,7 @@ h1,h2,h3,h4,p,a{
 #cont3 ul li{
     list-style: none;
     margin-top: 10px;
-    color: rgb(212, 184, 184);
+    color: white;
     font-family: skillstation;
     
 }
@@ -1755,15 +1782,223 @@ h1,h2,h3,h4,p,a{
     }
     #sk{
         display: block;
-       
-       
+         
     }
-
-
     
 }
 
 
+/* adding css for section new added */
 
+#new{
+    height: 800px;
+    background: #A8DADC;
+    width: 100%;
+}
+#new-cont{ 
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+
+#new-pics{
+    width: 316px;
+    height: 510px;
+    margin-left: 100px;
+    
+}
+#total{
+    display: flex;
+}
+
+#sup{
+    
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    left: 22.9%;
+}
+ #sup img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     
+ }
+
+#sup-con{
+    background: #457B9D;
+    border-radius: 7px;  
+    width: 23%;
+    height: 400px;
+    position: absolute;
+    top: 2750px;
+    color: white;
+    
+
+}
+
+#sup-con h3 {
+    text-align: center;
+    padding-top: 110px;
+}
+
+#sup-con p{
+    width: 250px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+#sup-con button{
+    width: 150px;
+    height: 40px;
+    background: #ED3237;
+    border-radius: 7px;
+    margin-left:24%;
+    margin-top: 30px;
+    border: none;
+    
+}
+
+#sup-con a{
+    text-decoration: none;
+    color: white;
+}
+
+
+   /* css sec new pat2 */
+
+  
+#new-pics2{
+    width: 316px;
+    height: 510px;
+    margin-left: 100px;
+
+    
+}
+
+#sup2{
+    
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    left: 22.9%;
+}
+ #sup2 img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+     
+ }
+
+#sup-con2{
+    background: #457B9D;
+    border-radius: 7px;  
+    width: 23%;
+    height: 400px;
+    position: absolute;
+    top: 2750px;
+    color: white;
+    
+
+}
+
+#sup-con2 h3 {
+    text-align: center;
+    padding-top: 110px;
+}
+
+#sup-con2 p{
+    width: 250px;
+    padding-top: 10px;
+    margin: auto;
+}
+
+#sup-con2 button{
+    width: 150px;
+    height: 40px;
+    border: 3px solid #ED3237;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin-left:24%;
+    margin-top: 53px;
+    background: #457B9D;
+    
+}
+
+#sup-con2 a{
+    text-decoration: none;
+    color: white;
+}
+
+    /* css sec new pat2 ends*/
+
+     /* css sec new pat3 */
+  
+     #new-pics3{
+        width: 316px;
+        height: 510px;
+        margin-left: 100px;
+
+        
+    }
+    
+    #sup3{
+        
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        left: 22.9%;
+    }
+     #sup3 img{
+         width: 100%;
+         height: 100%;
+         border-radius: 50%;
+         
+     }
+    
+    #sup-con3{
+        background: #457B9D;
+        border-radius: 7px;  
+        width: 23%;
+        height: 400px;
+        position: absolute;
+        top: 2750px;
+        color: white;
+        
+    
+    }
+    
+    #sup-con3 h3 {
+        text-align: center;
+        padding-top: 110px;
+    }
+    
+    #sup-con3 p{
+        width: 250px;
+        padding-top: 10px;
+        margin: auto;
+    }
+   
+    #so3{
+        display: flex;
+        width: 170px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+
+      /* css sec new pat3 ends*/
+
+
+
+/*  css for section new added ends here */
 
 
