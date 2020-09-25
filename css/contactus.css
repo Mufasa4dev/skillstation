@@ -122,6 +122,125 @@ margin-top: 15px;
  #right h5{
      margin-top: 10px;
  }
+ .main{
+     display: flex;
+     height: 100px;
+     background-color: #1D3557;
+     margin-top: 5%;
+ }
+ .main #text{
+     margin-top: 2%;
+     margin-left: 5%;
+ }
+ #form{
+     margin-left: 25%;
+     margin-top: 2%;
+ }
+ /* section five ends */
+ .social{
+     display: flex;
+ }
+ #fb{
+     margin-left:40%;
+     background-color: blue;
+     color: white;
+ }
+ #tw{
+     margin-left: 5%;
+     background-color: blue;
+     color: white;
+ }
+ #in{
+    margin-left: 5%;
+    background-color: blue;
+    color: white;
+}
+#mail{
+    margin-left: 5%;
+}
+
+ /* section six */
+#footer{
+    height: 390px;
+    background-color: #1D3557;
+    margin-top: 15px;
+}
+
+#foot1{
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+
+}
+#folo{
+    margin-top: 100px;
+    color: white;
+}
+
+#so{
+    display: flex;
+    margin-top: 5px;
+}
+#last{
+    background-color: #1D3557;
+}
+
+#sk{
+    margin-left: 100px;
+    color: white;
+    background-color: #1D3557;
+}
+
+#cont{
+    margin-left: 530px;
+    display: flex;
+
+}
+
+#cont1 {
+    margin-top: 100px;
+
+}
+
+
+#cont1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+
+}
+
+#cont2 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+
+}
+#cont2 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+
+
+}
+
+#cont3 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+    
+}
+/* section six ends */
+
            @media(max-width:650px){
            /* section one media starts here */
             .nav{
@@ -211,4 +330,74 @@ margin-top: 15px;
                 margin-top: 25%;
             }
             /* section two media styles ends here */
+            /* section three media starts here */
+           .all{
+           display: block;
+            }
+            #left{
+                margin-left: 5%;
+                margin-top: 50px;
+                width: 450px;
+            }
+/* section three media ends here */
+/* section four media  */
+.main{
+    display: block;
+    height: 120px;
+    background-color: #1D3557;
+    margin-top: 5%;
+}
+.main #text{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+#form{
+    margin-left: 2%;
+    margin-top: 2%;
+}
+/* section four media ends here */
+ /* section five media starts here */
+ #footer{
+    display: block;
+    height: 500px;
+}
+#foot1{
+    display: flex;
+    margin-left: 7px;   
+}
+#folo{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 130px;
+    font-size: 10px;
+    font-weight: 0px;
+}
+#so{
+    margin-left: 0px;
+    margin-top: 17px;   
+}
+#sk{
+    display: block;
+    margin-top: 0px;
+}
+#cont{
+    display: block;
+    margin-left: 0px;
+}
+#cont1{
+    float: left;
+}
+#cont2{
+    float: left;
+    margin-left: 20px;
+}
+#cont3{
+    float: left;
+    margin-left: 20px;
+}
+#sk{
+    display: block;
+}
+
+/* section five media ends here */
         }
