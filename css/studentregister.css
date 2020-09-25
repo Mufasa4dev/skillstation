@@ -15,7 +15,7 @@ body{
     }
     
 #main{
-    background-image: url('../images/banner.png');
+    background-image: url('../images/login-pic.png');
     background-size: cover;
     width: 100%;
     height: 850px;
@@ -41,7 +41,7 @@ body{
 }
 
 #logo img{
-    height: 80px;
+    height: 50px;
     width: 25%;
 
 }
@@ -198,4 +198,25 @@ padding-right: 30px;
 
 #pic3{
     margin-left: 40px;
+}
+
+@media(max-width:700px){
+    body{
+        width: 100%;
+        background-color: goldenrod;
+    }
+
+
+    #content{
+        width: 85%;
+        height: 800px;
+    }
+
+    #form1{
+        width: 90%;
+    left: 50px;
+    }
+
+
+
 }

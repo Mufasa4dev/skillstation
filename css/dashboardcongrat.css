@@ -119,41 +119,64 @@ margin-top: 15px;
     /* End of section 2 */
     #sec-three{
         width: 70%;
-        height: 950px;
+        height: 00px;
         position: absolute;
         top: 200px;
         margin-left: 220px;
         margin-top: 20px;
     }
 
+
+     #head{
+         margin-top: 20px;
+        text-align: center;
+        font-size: 30px;
+        font-family: cursive;
+    }
+
+
     #intro{
         text-align: center;
         margin-top: 30px;
     }
 
-     #head{
-         margin-top: 10px;
-       margin-left: 100px;
-        font-size: 17px;
+
+    #intro #num{
+        margin-top: 20px;
+        border: solid 1px #1D3557;
+        color: white;
+        width: 30px;
+        height: 30px;
+        background-color: #1D3557;
+        padding-top: 5px;
+        float: left;
+        margin-left: 100px;
         font-family: cursive;
+        text-align: center;
     }
 
-
+     #h4{
+       float: right;
+       padding-top: 31px;
+        font-size: 15px;
+        margin-right: 120px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;     
+    }
 
     #progress{
         width: 78%;
         height: 5px;
-        margin-top: 4px;
+        margin-top: 94px;
         border: solid #CED5DA 1px;
-        background-color: #CED5DA;
+        background-color: #ED3238;;
         margin-left: 99px;
         border-radius: 15px;
     }
 
+
+    /* video editing begins */
    
-   
-    /* js video editing begins */
-    #video-intro iframe{
+    #video-intro img{
         width: 78%;
         height: 350px;
         border: solid #1D3557 1px;
@@ -162,9 +185,13 @@ margin-top: 15px;
     }
 
     
-    #download a{
+    #download p{
         text-decoration: none;
-        color: #ED3238;
+        color: #1D3557;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 20px;
+        
     }
 
     #download #complete{
@@ -178,43 +205,24 @@ margin-top: 15px;
         border-radius: 15px;
     }
 
-    #download #complete p{
-        margin-left: 10px;
-        font-size: 13px;
+    #download #leave{
+        margin-left: 100px;
+        float: left;
     }
 
     #download #video{
         float: right;
         margin-right: 110px;
     }
-
-
-
-    #js{
-        margin-top: 35px;
+   
+   
+   
         
-    }
-
-    #js h2{
-        margin-left: 100px;
-        color: #1D3557;
-        font-size: 30px;
-        font-family: skillstation;
-    }
-
-    #js p{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 110px;
-        margin-top: 5PX;
-        color: darkcyan;
-    }
 
 #comment{
-    margin-top: 60px;
+    margin-top: 90px;
     font-family: skillstation;
-    margin-left: 100px;
-    
-       
+    margin-left: 100px;      
 }
 
 #comment-border{
@@ -258,8 +266,7 @@ margin-top: 15px;
 #comment2 img{
     margin-top: 10px;
     float: left;
-    border-radius: 50%;
-   
+    border-radius: 50%;  
 }
 
 #comment2 #text #jane{
@@ -276,17 +283,8 @@ margin-top: 15px;
 }
 
 /* Back to course editing */
-#end{
-    margin-top: 50px;
-    margin-left: 430px;
-    font-family: skillstation;
-    font-size: 20px;
-    color: #1D3557;
-    font-weight: bolder;
-}
-
 #navigate{
-    margin-top: 50px;
+    margin-top: 70px;
     width: 100%;
     height: 60px;
     font-family: skillstation;
@@ -308,8 +306,7 @@ margin-top: 15px;
 
 #back p{
     display: inline-block;
-    margin-left: 10px;
-    
+    margin-left: 10px;   
 }
 
 #divider{
@@ -356,7 +353,6 @@ margin-top: 15px;
 #share-part{
     margin-top: 35px;
     font-family: skillstation;
-
 }
 
 #share-part a{
@@ -368,7 +364,6 @@ margin-top: 15px;
     display: inline-block;
     float: left;
     margin-left: 100px;
-
 }
 
 #social{
@@ -379,26 +374,25 @@ margin-top: 15px;
 
 #social img{
     padding-left: 15px;
-
 }
 
 #chat-box{
-    margin-top: -460px;
-    margin-left: 730px;
+    margin-top: -470px;
+    margin-left: 700px;
     border: solid #1D3557 1px;
-    height: 30px;
-    width: 10%;
+    height: 80px;
+    width: 12%;
     text-align: center;
     padding-top: 4px;
-    border-radius: 8px;
+    border-radius: 50%;
     background-color: #1D3557;
-    
+    padding-top: 20px;
 }
 
 #chat-box a{
     text-decoration: none;
     color: white;
-
+    padding-top: 10px;
 }
 
 #chat-box:hover{   
@@ -417,8 +411,7 @@ margin-top: 15px;
     width: 100%;
     height: 300px;
     position: absolute;
-    top: 1300px;
-    margin-bottom: 0px;
+    top: 1370px;
     color: whitesmoke;
     background-color: #1D3557;
 }
@@ -490,6 +483,7 @@ margin-top: 15px;
     font-family: skillstation;
     
 } 
+
 
 @media(max-width:700px){
     body{
@@ -624,6 +618,5 @@ margin-top: 15px;
 
 
 
+
 }
-
-
