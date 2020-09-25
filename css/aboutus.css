@@ -16,6 +16,7 @@ h1,h2,h3,h4,h5,p,a{
     height: 80px;
     width: 100%;
     background-color: #1D3557;
+    position: fixed;
 }
 .nav-logo{
     position: absolute;
@@ -31,9 +32,10 @@ h1,h2,h3,h4,h5,p,a{
 .nav-menu{
     position: absolute;
     left: 40%;
-    top: 4%;
+    top: 14%;
     height: 40px;
     width: 60%;
+    padding: 10px;
 }
 .nav-menu :hover{
     cursor: pointer;
@@ -76,8 +78,8 @@ h1,h2,h3,h4,h5,p,a{
         /* section two styles starts here */
 .bg-wrapper{
     background-image: url(../images/Group\ 56\(1\).png);
-    height: 700px;
-    background-size: cover;
+    height: 500px;
+    background-size: contain;
 }
 #bg-text{
     padding: 10%;
@@ -87,6 +89,7 @@ h1,h2,h3,h4,h5,p,a{
     color: #ffffff;
     font-size: 52px;
     text-align: center;
+    margin-top: 8%;
 }
 #bg-text h4{
     font-weight: 700;
@@ -662,6 +665,7 @@ h1,h2,h3,h4,h5,p,a{
     @media(max-width:650px){
         .nav{
             height: 80px;
+            position: fixed;
         }   
         .nav-logo{
             position: absolute;
@@ -673,7 +677,9 @@ h1,h2,h3,h4,h5,p,a{
             left: 80%;
             display: block;
             color: white;
-            top: 5%;
+            top: 15%;
+            padding: 5px;
+
         }
         .nav-menu{
             position: absolute;
@@ -684,6 +690,9 @@ h1,h2,h3,h4,h5,p,a{
             z-index: +1;
             display: none;
         }
+        #hom{
+            margin-top: 15%;
+        }
         .nav-menu a{
             text-decoration: none;
             padding: 20px;
@@ -691,7 +700,7 @@ h1,h2,h3,h4,h5,p,a{
             color: white;
             background-color: #ED3237;
             border-radius: 10px;
-            margin-top: 1%;
+            margin-top: 10%;
         }
         .nav-menu :hover{
         cursor: pointer;
@@ -724,6 +733,9 @@ h1,h2,h3,h4,h5,p,a{
         }
         .empty{
             display: block;
+        }
+        #bg-text h2{
+            margin-top: 30%;
         }
         /* section three media  */
         #hr hr{
