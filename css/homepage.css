@@ -309,7 +309,7 @@ h1,h2,h3,h4,p,a{
                     background-color: #f1faee;
                 }
                 #cover-img{
-                    width: 450px;
+                    width: 500px;
                     background-image: url(../images/login\ opt\ 2\ 1.png);
                     height: 350px;
                     background-repeat: no-repeat;
@@ -324,6 +324,7 @@ h1,h2,h3,h4,p,a{
                     width: 500px;
                     margin-top: 8%;
                     margin-left: 7%;
+                    
                 }
                 #cover-text h3{
                     font-weight: 700;
@@ -357,20 +358,90 @@ h1,h2,h3,h4,p,a{
                 }
                 /* section-five styles ends here */
 
+                /* creating media screen for this section */
+
+                @media (max-width:650px){
+                    
+                #comp{
+                    height: 1100px;
+                    background-color: #f1faee;
+                    border: solid green;
+
+                }
+
+                .cover{
+                    display: flex;
+                    background-color: #f1faee;
+                }
+                #cover-img{
+                    width: 500px;
+                    background-image: url(../images/login\ opt\ 2\ 1.png);
+                    height: 350px;
+                    background-repeat: no-repeat;
+                    margin-left: 10%;
+                    margin-top: 8%;
+                }
+                #cover-img img{
+                    width: 100%;
+                }
+                #cover-text{
+                    height: 300px;
+                    width: 500px;
+                    margin-top: 8%;
+                    margin-left: 7%;
+                    
+                }
+                #cover-text h3{
+                    font-weight: 700;
+                    font-size: 24px;
+                }
+                #cover-text p{
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 8%;
+                }
+                #impact{
+                    background-color: #ED3237;
+                    border: #ED3237 solid;
+                    border-radius: 10px;
+                    height: 40px;
+                    width: 150px;
+                    text-align: center;
+                    padding-top: 4px;
+                    margin-left: 200px;
+                }
+                #impact a{
+                    color: white;
+                    text-align: center;
+                    text-decoration: none;
+                }
+                #impact:hover{
+                     text-decoration: none;
+                     background-color: #1D3557;
+                     cursor: pointer;
+                     border: #1D3557 solid;
+                }
+
+                }
+
+                /* creating media screen for this section */
+
                 /* section-five part2 begins here */
 
                 
                 .cover1{
                     display: flex;
                     background-color: #f1faee;
+                   
                 }
                 #cover-img1 {
-                    width: 450px;
+                    width: 500px;
                     background-image: url(../images/text\ 3\ 2.png);
                     height: 350px;
                     background-repeat: no-repeat;
-                    margin-left: 10%;
+                    margin-left: 7%;
                     margin-top: 8%;
+                    
                 }
                 #cover-img1 img{
                     width: 100%;
@@ -379,7 +450,8 @@ h1,h2,h3,h4,p,a{
                     height: 300px;
                     width: 500px;
                     margin-top: 8%;
-                    margin-left: 7%;
+                    margin-left: 10%;
+                   
                 }
                 #cover-text1 h3{
                     font-weight: 700;
@@ -412,7 +484,7 @@ h1,h2,h3,h4,p,a{
                     width: 200px;
                     border-radius: 10px;
                     height: 40px;
-                    margin-left: 100px;
+                    margin-left: 88px;
                     border: 3px solid #ED3237;
                     box-sizing: border-box;
                     border-radius: 10px;
