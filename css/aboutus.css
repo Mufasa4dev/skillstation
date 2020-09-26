@@ -77,9 +77,9 @@ h1,h2,h3,h4,h5,p,a{
 
         /* section two styles starts here */
 .bg-wrapper{
-    background-image: url(../images/Group\ 56\(1\).png);
-    height: 500px;
-    background-size: contain;
+    background-image: url(../images/IMG-20200926-WA0000.jpg);
+    height: 600px;
+    background-size: cover;
 }
 #bg-text{
     padding: 10%;
@@ -770,6 +770,12 @@ h1,h2,h3,h4,h5,p,a{
         }
         #bg-text h2{
             margin-top: 30%;
+        }
+        /* section two media */
+        .bg-wrapper{
+            background-image: url(../images/IMG-20200926-WA0000.jpg);
+            height: 600px;
+            background-size: contain;
         }
         /* section three media  */
         #hr hr{
