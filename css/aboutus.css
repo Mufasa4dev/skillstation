@@ -697,6 +697,36 @@ h1,h2,h3,h4,h5,p,a{
 
         /* section one media starts here */
     @media(max-width:650px){
+        .nav{
+            height: 80px;
+            position: fixed;
+        }   
+        .nav-logo{
+            position: absolute;
+            left: 5%;
+            top: 2%;
+        }
+        .nav-bar{
+            position: absolute;
+            left: 80%;
+            display: block;
+            color: white;
+            top: 15%;
+            padding: 5px;
+
+        }
+        .nav-menu{
+            position: absolute;
+            left: 40%;
+            top: 14%;
+            height: 40px;
+            width: 60%;
+            z-index: +1;
+            display: none;
+        }
+        #hom{
+            margin-top: 15%;
+        }
         .nav-menu a{
             text-decoration: none;
             padding: 20px;
@@ -737,40 +767,11 @@ h1,h2,h3,h4,h5,p,a{
         }
         .empty{
             display: block;
-        } */
-        .nav{
-            display: flex;
-            height: 80px;
-            background-color: #1D3557;
-            position: fixed;
-            z-index: 1;
         }
-        .nav-logo{
-            position: absolute;
-            left: 7%;
-            top: 12%;
-        }
-        .nav-bar{
-            position: absolute;
-            left: 30%;
-            display: block;
-            cursor: pointer;
-        }
-        .nav-menu{
-            position: absolute;
-            left: 30%;
-            top: 0%;
-            height: 40px;
-            width: 50%;
-        }   
-         #hom{
-           margin-top:10%;
-        }
-        
-        /* section two media */
         #bg-text h2{
             margin-top: 30%;
         }
+        /* section two media */
         .bg-wrapper{
             background-image: url(../images/IMG-20200926-WA0000.jpg);
             height: 600px;
