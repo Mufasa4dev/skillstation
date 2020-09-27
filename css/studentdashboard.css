@@ -1,0 +1,599 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+
+body{
+        background-color: #F1FAEE;
+        font-family: skillstation;
+}
+
+    
+
+
+@font-face{
+    font-family: skillstation;
+    src: url("../font/Helvetica.ttf");
+    }
+
+#nav{
+    width: 100%;
+    height: 80px;
+    background-color: #1D3557;
+    position: fixed;
+    z-index: 1;
+}
+
+#menubar {
+display: inline-block;
+margin-left: 70px;
+margin-top: 15px;
+}
+
+#logo{
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
+#search{
+    display: inline-block;
+    position: absolute;     
+}
+
+#search input{
+    position: relative;
+    height: 30px;
+    width: 130%;
+    outline: none;
+      left: 287px;
+    margin-top: 20px;
+
+}
+
+#search ::placeholder{
+    padding-left: 100px;
+}
+
+#search button{
+ position: absolute;
+    left: 249px;
+    height: 28.3px;
+    top: 21.2px;
+    width: 20%;
+    background-color: white;
+    border: none;
+    outline: none;
+    
+}
+
+#notification{
+    display: inline-block;
+    position: absolute;
+    right: 220px;
+    margin-top: 25px;
+}
+
+#name{
+    display: inline-block;
+    position: absolute;
+    right: 120px;
+    color: white;
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+#myphoto img{
+    display: inline-block;
+    height: 55px;
+    width: 4%;
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    border-radius: 50%;
+}
+
+
+/* section2 editing begins */
+#dashboard{
+    width: 17%;
+    height: 490px;
+    background-color: #E5E5E5;
+    margin-top: 100px;
+    margin-left: 15px;
+   position: fixed;
+   z-index: -1;  
+}
+
+#dashboard a{
+    display: inline-block;
+    text-decoration: none;
+     color: #1D3557;
+     position: absolute;
+     margin-top: 18px;
+     margin-left: 15px;
+     font-size: 15px;
+}
+
+#dashboard img{
+    margin-bottom: 5px; 
+    padding-left: 10px; 
+}
+
+
+#dash{
+    width: 100%;
+  padding-top: 20px;
+  border-bottom: solid 3px #aaa;
+}
+
+
+#courses{
+    width: 100%;
+    padding-top: 20px;
+    border-bottom: solid 3px #aaa;
+}
+
+
+#biodata{
+    width: 100%;
+  padding-top: 20px;
+  border-bottom: solid 3px #aaa;
+}
+
+#files{
+    width: 100%;
+  padding-top: 20px;
+  border-bottom: solid 3px #aaa;
+}
+
+
+#certificate{
+    width: 100%;
+  padding-top: 20px;
+  border-bottom: solid 3px #aaa;
+}
+
+
+#logout{
+    width: 100%;
+  padding-top: 20px;
+  border-bottom: solid 3px #aaa;
+}
+
+
+#sectwo{
+    background-color: #F1FAEE;
+}
+
+
+/* contents begins */
+#content{
+    width: 55%;
+    height: 600px;
+    position: absolute;
+    left: 263px;
+    top: 100px;
+    background-color: #F1FAEE;
+
+}
+
+#content h2{
+text-align: center;
+}
+
+#header a{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #1D3557;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#header a:hover{
+border: #1D3557 solid;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+padding-bottom: 0px;
+}
+
+#course{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+ margin-top: 0px;
+ margin-bottom: 40px;
+}
+
+#web{
+    width: 30%;
+    height: 400px;
+    background-color: #1D3557;
+    color: white;
+    border-radius: 10px;
+     display: inline-block;
+}
+
+#web img{
+ width: 100%;
+ height: 150px;
+ margin-bottom: 10px;
+}
+
+#web h4{
+margin-bottom: 15px;
+padding-left: 15px;
+font-size: 20px;
+}
+
+#web p{
+ font-size: 15px;
+ padding-left: 10px;
+}
+
+
+ #go-nav #go{
+    text-decoration: none;
+    color: white;
+    display: block;
+    border: solid 2px #878B8D;
+    width: 90%;
+    height: 37px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 11px;
+    padding-top: 7px;
+    background-color: #878B8D;
+    border-radius: 5px;
+}
+
+#go-nav #go:hover{
+    border-color: rgb(143, 19, 19);
+}
+
+#go-nav #leave{
+    text-decoration: none;
+    color: white;
+    display: block;
+    border: solid 2px #878B8D;
+    width: 90%;
+    height: 37px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 11px;
+    padding-top: 7px;
+    background-color: #1D3557;
+    border-radius: 5px;
+} 
+
+#go-nav #leave:hover{
+    border-color: rgb(143, 19, 19);
+}
+
+
+/* sidebar  */
+#sidebar{
+    width: 22.5%;
+    height: 600px;
+    position: absolute;
+    right: 40px;
+    top: 130px;
+}
+
+#calendar{
+    margin-left: 30px;
+    width: 100%;
+    height: 325px;
+    margin-top: 6px;
+}
+
+#timeline{
+    width: 100%;
+    height: 180px;
+    border: solid #E5E5E5 2px;
+    margin-left: 30px;
+    margin-top: 3px;  
+    padding-top: 10px;
+    background-color: white;
+}
+
+#timeline #time{
+  margin-bottom: 3px;
+  font-size: 20px;
+
+}
+
+#timeline p{
+    text-align: center;
+}
+
+#timeline img{
+   width: 200px;
+   height: 100px; 
+   margin-left: 95px;
+}
+
+#private{
+    width: 100%;
+    height: 180px;
+    border: solid #E5E5E5 2px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+#private h3{
+    padding: 15px;
+}
+
+#private p{
+    padding: 15px;
+}
+
+#private a{
+    text-decoration: none;
+    padding-top: 60px;
+    padding-left: 15px;
+    color: rgb(60, 60, 219);
+}
+
+
+/* footerr styling begins */
+#footer{
+    width: 80%;
+    height: 300px;
+    position: absolute;
+    top: 1150px;
+    left: 270px;
+    color: whitesmoke;
+    background-color: #1D3557;
+}
+
+ #foot1{
+    margin-left: 40px;
+    margin-top: 40px;
+    float: left;
+
+}
+#folo{
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#so{
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+#sk{
+    margin-top: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cont{
+    margin-left: 350px;
+    display: flex;
+}
+
+#cont1 {
+    margin-top: 50px;
+}
+
+
+#cont1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+}
+
+#cont2 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+#cont2 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+}
+
+#cont3 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+    
+} 
+
+@media(max-width:700px){
+    body{
+        width: 100%;
+        
+    }
+
+    #nav{
+        width: 100%;
+    }
+
+    #menubar{
+        margin-left: 10px;
+    }
+
+    #logo{
+        margin-left: 20px;
+
+    }
+
+    #search input{
+        position: absolute;
+        left: 50px;
+        width: 120px;
+    }
+
+    #search button{
+        position: absolute;
+        left: 55px; 
+    }
+
+    #notification{
+        left: 480px;
+        position: absolute;
+    }
+
+    #name{
+        font-size: 15px;
+        right: 103px;
+        padding-top: 5px;
+    }
+
+    #myphoto img{
+        width: 8%;
+    }
+
+
+    #dashboard{
+        width: 25%;
+    }
+
+#course #web{
+    margin-bottom: 50px;
+    height: 440px;
+}
+
+    .top{
+        width: 100%;
+    }
+
+   #head{
+       width: 100%;
+       margin-right: 220px;
+       font-size: 20px;
+   }
+
+
+  #sec-three{
+      width: 100%;
+      height: 600px;
+      margin: auto;
+  }
+
+
+  #h4{
+      margin-left: 130px;
+  }
+
+  #comm textarea{
+      width: 180%;
+  }
+
+  #comment2 #text #who{
+      width: 80%;
+  }
+
+  #chat-box{
+      position: absolute;
+      right: 100px;
+  }
+
+  #back a{
+      display: inline-block;
+  }
+
+  #divider{
+      display: none;
+  }
+
+
+#back p{
+    margin-left: 25px; 
+    margin-top: -50px;
+}
+
+
+#content{
+    width: 70%;
+    ;
+    position: absolute;
+    left: 200px;
+
+}
+
+#calendar{
+    display: none;
+}
+
+#timeline{
+    display: none;
+}
+
+#private{
+    display: none;
+}
+
+#footer{
+    width: 70%;
+    margin-top: 30px;
+    left: 202px;
+   
+}
+
+ #foot1{
+    margin-left: 10px;
+    margin-top: 40px;
+    float: left;
+
+}
+
+
+
+
+#cont{
+    margin-left: 300px;
+    display: flex;
+}
+
+#cont1 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+
+
+#cont2 {
+    display: none;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+
+#cont3 {
+    display: none;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+}
+
