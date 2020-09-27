@@ -175,7 +175,6 @@ h1,h2,h3,h4,p,a{
         }
         /* section-three styles starts here */
         .sphere{
-            border: solid red;
             height: 500px;
 
             }
@@ -2078,6 +2077,7 @@ h1,h2,h3,h4,p,a{
 
     .cover1{
         display: block;
+        border: solid blue;
     }
 
     #cover-img1 {
