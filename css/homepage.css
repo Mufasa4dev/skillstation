@@ -20,9 +20,8 @@ h1,h2,h3,h4,p,a{
     height: 80px;
     width: 100%;
     background-color: #1D3557;
-
     position: fixed;
-    z-index: 1;
+    z-index: +1;
 }
 .nav-logo{
     position: absolute;
@@ -46,99 +45,6 @@ h1,h2,h3,h4,p,a{
 .main{
     padding-top: 80px;
 } 
-
-
-@media(max-width:1285px){
-    .nav-menu{
-        left: 30%;
-        width: 767px;
-
-    }
-}
-
-@media(max-width:1110px){
-    .nav-menu{
-        left: 25%;
-
-    }
-}
-
-@media(max-width:1040px){
-    .nav-menu{
-        left: 22%;
-
-    }
-}
-
-
-@media(max-width:995px){
-    .nav-menu{
-        left: 22%;
-
-    }
-
-    .nav-bar{
-        position: absolute;
-        left: 80%;
-        display: block;
-        color: white;
-        top: 19%;
-        left: 80%;
-    } 
-
-
-    .nav-menu a{
-        display: none;
-
-    }
-        .nav-bar{
-        position: absolute;
-        display: block;
-        color: white;
-        border-radius: 10px;
-        margin-top: 1%;
-    }
-    .nav-menu :hover{
-    cursor: pointer;
-    text-decoration: none;
-    color: #1D3557;
-    }
-    #sign{
-        border: solid 1px #ED3237;
-        color: white;
-        padding: 5px;
-        border-radius: 10px;
-        background-color: #ED3237;
-    }
-    #sign:hover{
-     color: #1D3557;
-    }
-    #log:hover{
-        color: #1D3557;
-         }
-    #log{
-        border: solid 1px #ED3237;
-        color: white;
-        padding: 5px;
-        border-radius: 10px;
-        margin-left: 0px;
-    }
-    
-    .empty{
-        display: block;
-        top: 19%;
-        left: 80%;
-    } 
-
-    .empty{
-        display: block;
-    }
-
-      
-}
-
-
-
 .nav-menu :hover{
     cursor: pointer;
     text-decoration: none;
@@ -942,22 +848,112 @@ h1,h2,h3,h4,p,a{
                 }
 
                  /* section eight styles ends here
+                 /* adding footer */
+
+ #footer{
+height: 390px;
+ background-color: #1D3557;
+}
+
+#foot1{
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+
+}
+#folo{
+    margin-top: 100px;
+    color: white;
+}
+
+#so{
+    display: flex;
+    margin-top: 5px;
+    
+}
+#last{
+    background-color: #1D3557;
+    
+
+}
+
+#sk{
+    /* margin-top: 10px; */
+    margin-left: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1D3557;
+}
+
+#cont{
+    margin-left: 530px;
+    display: flex;
+
+}
+
+#cont1 {
+    margin-top: 100px;
+
+}
+
+
+#cont1 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+
+}
+
+#cont2 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+
+}
+
+
+#cont2 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+
+
+}
+
+#cont3 {
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+#cont3 ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: skillstation;
+    
+}
+
     /* section one media starts here */
     @media(max-width:650px){
     .nav{
         height: 80px;
+        position: fixed;
     }   
-    .nav-logo{
+     .nav-logo{ 
         position: absolute;
         left: 5%;
         top: 2%;
     }
      .nav-bar{
-        position: absolute;
-        left: 80%;
-        display: block;
+       position: absolute;
+       left:80%;
+        display: none;
         color: white;
         top: 5%;
+        cursor: pointer;
     } 
     .nav-menu{
         position: absolute;
@@ -1005,7 +1001,7 @@ h1,h2,h3,h4,p,a{
     }
     .empty{
         display: block;
-    }
+    } */
         /* section one media ends here */
        /* section three media starts here */
         .sphere{
@@ -1247,95 +1243,6 @@ h1,h2,h3,h4,p,a{
 
 }
 
-/* adding footer */
-
-#footer{
-    height: 390px;
-    background-color: #1D3557;
-    
-
-}
-
-#foot1{
-    margin-left: 100px;
-    margin-top: 50px;
-    float: left;
-
-}
-#folo{
-    margin-top: 100px;
-    color: white;
-}
-
-#so{
-    display: flex;
-    margin-top: 5px;
-    
-}
-#last{
-    background-color: #1D3557;
-    
-
-}
-
-#sk{
-    /* margin-top: 10px; */
-    margin-left: 100px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #1D3557;
-}
-
-#cont{
-    margin-left: 530px;
-    display: flex;
-
-}
-
-#cont1 {
-    margin-top: 100px;
-
-}
-
-
-#cont1 ul li{
-    list-style: none;
-    margin-top: 10px;
-    color: white;
-    font-family: skillstation;
-
-}
-
-#cont2 {
-    margin-left: 150px;
-    margin-top: 100px;
-
-
-}
-
-
-#cont2 ul li{
-    list-style: none;
-    margin-top: 10px;
-    color: white;
-    font-family: skillstation;
-
-
-}
-
-#cont3 {
-    margin-left: 150px;
-    margin-top: 100px;
-
-}
-
-#cont3 ul li{
-    list-style: none;
-    margin-top: 10px;
-    color: white;
-    font-family: skillstation;
-    
-}
 
 /* media screen for join us section */
 
@@ -2002,3 +1909,91 @@ h1,h2,h3,h4,p,a{
 /*  css for section new added ends here */
 
 
+@media(max-width:1285px){
+    .nav-menu{
+        left: 30%;
+        width: 767px;
+
+    }
+}
+
+@media(max-width:1110px){
+    .nav-menu{
+        left: 25%;
+
+    }
+}
+
+@media(max-width:1040px){
+    .nav-menu{
+        left: 22%;
+
+    }
+}
+
+
+@media(max-width:995px){
+    .nav-menu{
+        left: 22%;
+
+    }
+
+    .nav-bar{
+        position: absolute;
+        left: 80%;
+        display: block;
+        color: white;
+        top: 19%;
+        left: 80%;
+    } 
+
+
+    .nav-menu a{
+        display: none;
+
+    }
+        .nav-bar{
+        position: absolute;
+        display: block;
+        color: white;
+        border-radius: 10px;
+        margin-top: 1%;
+    }
+    .nav-menu :hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #1D3557;
+    }
+    #sign{
+        border: solid 1px #ED3237;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #ED3237;
+    }
+    #sign:hover{
+     color: #1D3557;
+    }
+    #log:hover{
+        color: #1D3557;
+         }
+    #log{
+        border: solid 1px #ED3237;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 0px;
+    }
+    
+    .empty{
+        display: block;
+        top: 19%;
+        left: 80%;
+    } 
+
+    .empty{
+        display: block;
+    }
+
+      
+}
