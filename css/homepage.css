@@ -2050,7 +2050,7 @@ h1,h2,h3,h4,p,a{
 @media(max-width: 500px){
 
     #comp{
-        height: 1500px;
+        height: 1600px;
         background-color: #f1faee;
         border: solid red;
     }
