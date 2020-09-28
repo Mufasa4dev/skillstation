@@ -48,94 +48,7 @@ h1,h2,h3,h4,p,a{
 } 
 
 
-@media(max-width:1285px){
-    .nav-menu{
-        left: 30%;
-        width: 767px;
 
-    }
-}
-
-@media(max-width:1110px){
-    .nav-menu{
-        left: 25%;
-
-    }
-}
-
-@media(max-width:1040px){
-    .nav-menu{
-        left: 22%;
-
-    }
-}
-
-
-@media(max-width:995px){
-    .nav-menu{
-        left: 22%;
-
-    }
-
-    .nav-bar{
-        position: absolute;
-        left: 80%;
-        display: block;
-        color: white;
-        top: 19%;
-        left: 80%;
-    } 
-
-
-    .nav-menu a{
-        display: none;
-
-    }
-        .nav-bar{
-        position: absolute;
-        display: block;
-        color: white;
-        border-radius: 10px;
-        margin-top: 1%;
-    }
-    .nav-menu :hover{
-    cursor: pointer;
-    text-decoration: none;
-    color: #1D3557;
-    }
-    #sign{
-        border: solid 1px #ED3237;
-        color: white;
-        padding: 5px;
-        border-radius: 10px;
-        background-color: #ED3237;
-    }
-    #sign:hover{
-     color: #1D3557;
-    }
-    #log:hover{
-        color: #1D3557;
-         }
-    #log{
-        border: solid 1px #ED3237;
-        color: white;
-        padding: 5px;
-        border-radius: 10px;
-        margin-left: 0px;
-    }
-    
-    .empty{
-        display: block;
-        top: 19%;
-        left: 80%;
-    } 
-
-    .empty{
-        display: block;
-    }
-
-      
-}
 
 
 .nav-menu :hover{
@@ -992,6 +905,9 @@ h1,h2,h3,h4,p,a{
         background-color: #ED3237;
         border-radius: 10px;
         margin-top: 1%;
+    }
+    #hom{
+        margin-top: 10%;
     }
     .nav-menu :hover{
     cursor: pointer;
@@ -2051,7 +1967,6 @@ h1,h2,h3,h4,p,a{
     #comp{
         height: 1600px;
         background-color: #f1faee;
-        border: solid red;
     }
 
     .cover{
@@ -2077,7 +1992,6 @@ h1,h2,h3,h4,p,a{
 
     .cover1{
         display: block;
-        border: solid blue;
     }
 
     #cover-img1 {
@@ -2122,6 +2036,7 @@ h1,h2,h3,h4,p,a{
 #new{
     display: block;
     height: 1900px;
+    border: solid;
 }
 
 #new-cont{
@@ -2144,34 +2059,34 @@ h1,h2,h3,h4,p,a{
 }
 
 #sup{
-    left: 16%;
+    left: 12%;
 }
 
 #sup-con{
     width: 60%;
-    margin-top: 2280px;
+    margin-top: 170%;
     text-align: justify;
 }
 
 #sup2{
-    left: 16.5%;
+    left: 12%;
     margin-top: 30px;
 }
 
 #sup-con2{
     width: 60%;
-    margin-top: 2830px;
+    margin-top: 280%;
     text-align: justify;
 }
 
 #sup3{
-    left: 16.5%;
+    left: 12%;
     margin-top: 30px;
 }
 
 #sup-con3{
     width: 60%;
-    margin-top: 3370px;
+    margin-top: 390%;
     text-align: justify;
 }
 
