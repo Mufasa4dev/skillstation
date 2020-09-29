@@ -993,29 +993,37 @@ h1,h2,h3,h4,p,a{
             }
        /* section three media ends here */
         /* section four media starts here */
-       /* .big-wrap{
+       .big-wrap{
         background-color:#1D3557;
         display: block;
         height: 880px;
-        border: solid hotpink;
+        
     }
      .text-wrap{
         margin-left: 0%;
         margin-top: 20%;
     }
-    .text-wrap #para-1{
+    #para-1{
         margin-left: 2%;
         margin-top: 10%;
         color: #ffffff;
     }
-    .text-wrap #para-2{
+    #para-2{
         margin-left: 2%;
         margin-top: 10%;
         color: #ffffff;
-    } */
+    }
+
+    #join{
+        
+        width: 360px;
+        margin-left: 10px;
+    }
+
+
      /* section four media ends here */
      /* section five media starts here */
-     /* .cover{
+     .cover{
         display: block;
         background-color: #f1faee;
     }
@@ -1033,7 +1041,10 @@ h1,h2,h3,h4,p,a{
         font-weight: 400;
         font-size: 18px;
         margin-top: 8%;
-    } */
+    }
+    #impact1{
+        width: 400px;
+    }
 
      /* section five media ends here */
     /* section seven media starts here */
