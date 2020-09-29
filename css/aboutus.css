@@ -107,34 +107,89 @@ h1,h2,h3,h4,h5,p,a{
 
 /* section three styles starts here */
 .main{
-    display: flex;
-}
-#main-img{
-    margin-top: 50px;
-}
-#main-text{
-    margin-top: 50px;
-    width: 830px;
-    margin-left: 1%;
-}
-#hr hr{
-    width: 100px;
-    border: solid 3px #ED3237;
-    margin-top: 118%;
-    margin-left: 5%;
+ border: solid 1px;
+ border-radius: 5px;
+ margin-top: 30px;
+ height: 200px;
+ width: 950px;
+ margin-left: 13%;
 
 }
-#main-text h2{
-    font-weight: 700;
-    font-size: 28px;
+.main h2{
+ text-align: center;
+ margin-top: 5px;
+}
+.main p{
+    margin-top: 20px;
     text-align: center;
 }
-#main-text p{
-    font-weight: 400;
-    font-size: 18px;
-    margin-top: 3%;
-}
 /* section three ends here */
+/* section new starts here */
+.sphere{
+    display: flex;
+    margin-left: 13%;
+    width: 950px;
+    margin-top: 30px;
+}
+#box-1{
+    width: 250px;
+    height: 350px;
+    border: solid 1px;
+    border-radius: 5px;
+    margin-left: 5px;
+    
+}
+#box-1 img{
+    margin-top: 40%;
+    margin-left: 28%;
+}
+#box-1 h3{
+    text-align: center;
+    margin-top: 5px;
+}
+#box-1 p{
+    text-align: center;
+    margin-top: 30px;
+}
+#box-2{
+    width: 250px;
+    height: 350px;
+    border: solid 1px;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+#box-2 img{
+    margin-top: 40%;
+    margin-left: 28%;
+}
+#box-2 h3{
+    text-align: center;
+    margin-top: 5px;
+}
+#box-2 p{
+    text-align: center;
+    margin-top: 30px;
+}
+#box-3{
+    width: 250px;
+    height: 350px;
+    border: solid 1px;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+#box-3 img{
+    margin-top: 40%;
+    margin-left: 28%;
+}
+#box-3 h3{
+    text-align: center;
+    margin-top: 5px;
+}
+#box-3 p{
+    text-align: center;
+    margin-top: 15px;
+}
+/* section new ends here */
 /* section four starts here */
 #team{
     display: flex;
@@ -239,7 +294,7 @@ h1,h2,h3,h4,h5,p,a{
     border: #1D3557 solid;
     height: 150px;
     width: 150px;
-    background-image: url(../images/fola\ oyeleke\ 1.png);
+    background-image: url(../images/WhatsApp\ Image\ 2020-09-25\ at\ 20.18\ 1.png);
     background-size: contain;
     margin: auto;
     margin-top: 5px;
@@ -480,7 +535,7 @@ h1,h2,h3,h4,h5,p,a{
     height: 400px;
     border: solid #1D3557;
     width: 300px;
-    margin-left: 60%;
+    margin-left: 100%;
     margin-top: 5%;
 }
 #pin-img1 h4{
@@ -515,7 +570,7 @@ h1,h2,h3,h4,h5,p,a{
     height: 400px;
     border: solid #1D3557;
     width: 300px;
-    margin-left: 70%;
+    margin-left: 110%;
     margin-top: 5%;
 }
 #pin-img2 h4{
@@ -545,40 +600,7 @@ h1,h2,h3,h4,h5,p,a{
     margin-top: 5px;
     border-radius: 50%;
 }
-#pin-img3{
-    height: 400px;
-    border: solid #1D3557;
-    width: 300px;
-    margin-left: 79%;
-    margin-top: 5%;
-}
-#pin-img3 h4{
-    font-weight: 700;
-    font-size: 24px;
-    margin-top: 57%;
-    margin-left: 50px;
-    width: 200px;
-}
-#pin-img3 p{
-    font-size: 18px;
-    font-weight: 400;
-    margin-left: 70px;
-}
-#pin3{
-    width: 297px;
-    height: 5px;
-    background-color: #1D3557;
-}
-#pin3-img{
-    border: #1D3557 solid;
-    height: 150px;
-    width: 150px;
-    background-image: url(../images/WhatsApp\ Image\ 2020-09-25\ at\ 20.18\ 1.png);
-    background-size: contain;
-    margin: auto;
-    margin-top: 5px;
-    border-radius: 50%;
-}
+
 /* team4 ends here */
 /* section four ends here */
 /* section five */
@@ -775,17 +797,50 @@ h1,h2,h3,h4,h5,p,a{
         .bg-wrapper{
             background-image: url(../images/IMG-20200926-WA0000.jpg);
             height: 600px;
-            background-size: contain;
+            /* background-size: cover; */
         }
         /* section three media  */
-        #hr hr{
-            width: 80px;
-            border: solid 3px #ED3237;
-            margin-top: 118%;
-            margin-left: 5%;
-        
-        }
+        .main{
+            border: solid 1px;
+            margin-top: 0px;
+            height: 220px;
+            width: 100%;
+            margin-left: 0%;
+           
+           }
+           .main h2{
+            text-align: center;
+            margin-top: 5px;
+           }
+           .main p{
+               margin-top: 20px;
+               text-align: justify;
+           }
+           
         /* section three media ends */
+        /* section new media starts here */
+        .sphere{
+            display: block;
+            margin-left: 3%;
+            width: 96%;
+            margin-top: 30px;
+        }
+        #box-2{
+            width: 250px;
+            height: 350px;
+            border: solid 1px;
+            border-radius: 5px;
+            margin-left: 1%;
+            margin-top: 2%;
+        }
+        #box-3{
+            width: 250px;
+            height: 350px;
+            border: solid 1px;
+            border-radius: 5px;
+            margin-left: 1%;
+            margin-top: 2%;
+        }
        /* section four media */
        /* part1 */
         #team{
@@ -895,7 +950,7 @@ h1,h2,h3,h4,h5,p,a{
             border: #1D3557 solid;
             height: 150px;
             width: 150px;
-            background-image: url(../images/fola\ oyeleke\ 1.png);
+            background-image: url(../images/WhatsApp\ Image\ 2020-09-25\ at\ 20.18\ 1.png);
             background-size: contain;
             margin: auto;
             margin-top: 5px;
@@ -1192,40 +1247,6 @@ h1,h2,h3,h4,h5,p,a{
     height: 150px;
     width: 150px;
     background-image: url(../images/Fauziyat\ Omoloye_SD\ \(1\)\ 1.png);
-    background-size: contain;
-    margin: auto;
-    margin-top: 5px;
-    border-radius: 50%;
-}
-#pin-img3{
-    height: 400px;
-    border: solid #1D3557;
-    width:100%;
-    margin-left: 0%;
-    margin-top: 5%;
-}
-#pin-img3 h4{
-    font-weight: 700;
-    font-size: 24px;
-    margin-top: 38%;
-    margin-left: 50px;
-    width: 200px;
-}
-#pin-img3 p{
-    font-size: 18px;
-    font-weight: 400;
-    margin-left: 70px;
-}
-#pin3{
-    width: 297px;
-    height: 5px;
-    background-color: #1D3557;
-}
-#pin3-img{
-    border: #1D3557 solid;
-    height: 150px;
-    width: 150px;
-    background-image: url(../images/WhatsApp\ Image\ 2020-09-25\ at\ 20.18\ 1.png);
     background-size: contain;
     margin: auto;
     margin-top: 5px;

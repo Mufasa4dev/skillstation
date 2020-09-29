@@ -316,7 +316,7 @@ margin-top: 15px;
             /* section two media styles starts here */
             .bg-img{
                 background-image: url(../images/support\ 2\ 2.png);
-                background-size: contain;
+                background-size: cover;
                 height: 550px;
             }
             #bg-text{
