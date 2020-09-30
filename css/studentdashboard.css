@@ -242,7 +242,7 @@ font-size: 20px;
 }
 
 
- #course #go-nav #go{
+  #go{
     text-decoration: none;
     color: white;
     display: block;
@@ -257,11 +257,11 @@ font-size: 20px;
     border-radius: 5px;
 }
 
-#go-nav #go:hover{
+#go:hover{
     border-color: rgb(143, 19, 19);
 }
 
-#go-nav #leave{
+#leave{
     text-decoration: none;
     color: white;
     display: block;
@@ -276,7 +276,7 @@ font-size: 20px;
     border-radius: 5px;
 } 
 
-#go-nav #leave:hover{
+#leave:hover{
     border-color: rgb(143, 19, 19);
 }
 
@@ -479,7 +479,7 @@ font-size: 20px;
     }
 
     #notification{
-        right: 45px;
+        right: 50px;
         top: 5px;
        
     }
@@ -493,7 +493,7 @@ font-size: 20px;
 
     #myphoto img{
         width: 10%;
-        right: 5px;
+        right: 15px;
     }
 
 
@@ -600,13 +600,14 @@ padding-bottom: 0px;
 
 #web2{
     width: 45%;
-    height: 300px;
+    height: 285px;
     background-color: #1D3557;
     color: white;
     border-radius: 10px;
     display: block;
     display: inline-block;
     margin-right: 10px;
+    
    
 }
 
@@ -624,7 +625,7 @@ padding-top: 0px;
 }
 
 
-#go-nav2 #go2{
+#go2{
     text-decoration: none;
     color: white;
     display: block;
@@ -639,11 +640,11 @@ padding-top: 0px;
     border-radius: 5px;
 }
 
-#go-nav2 #go2:hover{
+#go2:hover{
     border-color: rgb(143, 19, 19);
 }
 
-#go-nav2 #leave2{
+#leave2{
     text-decoration: none;
     color: white;
     display: block;
@@ -658,14 +659,14 @@ padding-top: 0px;
     border-radius: 5px;
 } 
 
-#go-nav2 #leave2:hover{
+#leave2:hover{
     border-color: rgb(143, 19, 19);
 }
  
 
 /* sidebar  */
 #sidebar{
-    width: 22.5%;
+    width: 100%;
        }
 
   #sec-three{
@@ -715,6 +716,7 @@ padding-top: 0px;
 #content2{
     width: 100%;
     left: 5px;
+    margin: auto;
 
 }
 
@@ -730,7 +732,7 @@ padding-top: 0px;
 #timeline{
     width: 100%;
     position: absolute;
-   top: 990px;
+   top: 985px;
    text-align: center;
 }
 
