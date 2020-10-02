@@ -324,7 +324,7 @@ h1,h2,h3,h4,p,a{
                 @media (max-width:650px){
                     
                 #comp{
-                    height: 1100px;
+                    height: 900px;
                     background-color: #f1faee;
                     
 
@@ -333,7 +333,7 @@ h1,h2,h3,h4,p,a{
                 .cover{
                     display: flex;
                     background-color: #f1faee;
-                    
+                    height: 1400px;
                 }
                 #cover-img{
                     width: 500px;
@@ -951,6 +951,7 @@ h1,h2,h3,h4,p,a{
        /* section three media starts here */
         .sphere{
             height: 720px;
+            
             }
             .circle{
                 display: flex;
@@ -962,6 +963,7 @@ h1,h2,h3,h4,p,a{
                 margin-top: 5px;
                 border-radius: 50%;
                 margin-left: 5%;
+                
             }
             #box-2{
                 width: 150px;
@@ -979,23 +981,23 @@ h1,h2,h3,h4,p,a{
                 }
             .oval{
                 display: flex;
-                margin: 20px;
-                padding: 10px;
+               
             }
             #box-par1{
-                padding: 10px;
-                margin-left: 8%;
-                width: 200px;
+                width: 30%;
+                margin-left: 10px;
+              
             }
             #box-par2{
-                padding: 10px;
-                margin-left: 10%;
-                width: 200px;
+                width: 30%;
+                margin-left: 10px;
+              
             }
             #box-par3{
-                padding: 10px;
-                margin-left: 12%;
-                width: 200px;
+                width: 30%;
+                margin-left: 10px;
+                
+                
             }
        /* section three media ends here */
         /* section four media starts here */
@@ -1029,38 +1031,19 @@ h1,h2,h3,h4,p,a{
 
      /* section four media ends here */
      /* section five media starts here */
-     .cover{
-        display: block;
-        background-color: #f1faee;
-    }
-    #cover-text{
-        height: 300px;
-        width: 450px;
-        margin-top: 8%;
-        margin-left: 1%;
-    }
-    #cover-text h3{
-        font-weight: 700;
-        font-size: 24px;
-    }
-    #cover-text p{
-        font-weight: 400;
-        font-size: 18px;
-        margin-top: 8%;
-    }
-    #impact1{
-        width: 400px;
-    }
-
+      
+   
      /* section five media ends here */
     /* section seven media starts here */
     .skill{
         background-color: #f1faee;
+        
 
     }
     .skill, h2, h3{
         font-weight: 400;
         font-size: 36px;
+        border: solid greenyellow;
     }
     .skill h3{
         margin-left: 10%;
@@ -1168,7 +1151,7 @@ h1,h2,h3,h4,p,a{
 #footer{
     height: 390px;
     background-color: #1D3557;
-    
+
 
 }
 
@@ -1176,17 +1159,21 @@ h1,h2,h3,h4,p,a{
     margin-left: 100px;
     margin-top: 50px;
     float: left;
+  
+
 
 }
 #folo{
     margin-top: 100px;
     color: white;
+    
+
 }
 
 #so{
     display: flex;
     margin-top: 5px;
-    
+   
 }
 #last{
     background-color: #1D3557;
@@ -1249,7 +1236,7 @@ h1,h2,h3,h4,p,a{
 }
 @media(max-width:500px){
     .big-wrap{
-        height: 1200px;
+        height: 1300px;
         display: block;
         margin: auto;
         margin-top: 0px;
@@ -1274,7 +1261,7 @@ h1,h2,h3,h4,p,a{
 
     #emp{
         width: 120px;
-        margin-left: 100px;
+        margin-left: 35px;
 
     }
 
@@ -1296,7 +1283,7 @@ h1,h2,h3,h4,p,a{
         display: none;
     }
     #wrap-1{
-        width: 400px;
+        width: 300px;
         height: 400px;
         margin-left: 30px;
     }
@@ -1307,7 +1294,7 @@ h1,h2,h3,h4,p,a{
     }
  
     #wrap-2{
-        width: 400px;
+        width: 300px;
         height: 400px;
         margin-left: 0px;
     }
@@ -1317,6 +1304,11 @@ h1,h2,h3,h4,p,a{
         height: 100%;
        
     }
+    #join{
+        width: 100%;
+    
+    }
+    
 }
 
 
@@ -1345,6 +1337,8 @@ h1,h2,h3,h4,p,a{
         font-size: 10px;
         font-weight: 0px;
         float: left;
+        
+        
 
     }
 
@@ -1357,19 +1351,19 @@ h1,h2,h3,h4,p,a{
 
     #sk{
         display: block;
+        width: 70%;
+        margin: auto;
         margin-top: 0px;
     }
 
     #cont{
         display: block;
         margin-left: 0px;
-        
-        
 
     }
     #cont1{
-        
         margin-left: 20px;  
+       
     }
 
     #cont2{
@@ -1610,7 +1604,7 @@ h1,h2,h3,h4,p,a{
 @media(max-width: 500px){
 
     #comp{
-        height: 800px;
+        height: 850px;
         background-color: #f1faee;
     }
 
@@ -1638,7 +1632,7 @@ h1,h2,h3,h4,p,a{
 
     .cover1{
         display: block;
-        height: 1000px;
+        height: 800px;
     }
 
     #cover-img1 {
@@ -1660,18 +1654,22 @@ h1,h2,h3,h4,p,a{
         width: 80%;
         height: 500px;
     }
-    /* #impact1{
-        width: 80%;
-    } */
+    #impact1{
+        width: 100%;
+        height: 70px;
+
+    }
 
     #su1{
-        width:180px ;
+        width:40% ;
+        height: 50px;
     }
 
     #su2{
-        width:180px ;
-        margin-left: 20px;
+        width:40%;
+        margin-left: 50px;
         color: white;
+        height: 50px;
     }
 
 /* media screen for section 4 ends here */
@@ -1681,7 +1679,7 @@ h1,h2,h3,h4,p,a{
 #new{
 
     display: block;
-    height: 1900px;
+    height: 2000px;
 }
 
 #new-cont{
@@ -1704,34 +1702,37 @@ h1,h2,h3,h4,p,a{
 }
 
 #sup{
-    left: 30%;
+    left: 25%;
 }
 
 #sup-con{
-    width: 60%;
-    margin-top: 240%;
+    width: 80%;
+    margin-top: 300%;
     text-align: justify;
+    left: 35px;
 }
 
 #sup2{
-    left: 12%;
-    margin-top: 30px;
+    left: -3%;
+    
 }
 
 #sup-con2{
-    width: 60%;
-    margin-top: 350%;
+    width: 80%;
+    margin-top: 450%;
     text-align: justify;
+    left: 35px;
 }
 #sup3{
-    left: 12%;
+    left: -3%;
     margin-top: 30px;
 }
 
 #sup-con3{
-    width: 60%;
-    margin-top: 460%;
+    width: 80%;
+    margin-top: 597%;
     text-align: justify;
+    left: 35px;
 }
 
 /* media screen for section 5 ends here */
@@ -1772,7 +1773,7 @@ h1,h2,h3,h4,p,a{
 }
 
 .sec-vid{
-    width: 99%;
+    width: 100%;
     height: 300px;
 }
 
@@ -1782,7 +1783,18 @@ h1,h2,h3,h4,p,a{
     width: 50%;
     margin-left: 0%;
 
-}
 
+}
+#write{
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    color:white;
+    left: 50px;
+    border: solid red;
+    font-size: xx-small;
+    font-size:5px;
+    font-weight: 20px;
+}
 }
 
