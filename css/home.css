@@ -178,7 +178,7 @@ body{
     }
 
 
-    @media (min-width:400px){
+    @media (min-width:500px){
         #partners1{
            display: none;
     
@@ -204,7 +204,7 @@ body{
 
 
 
-@media (max-width:400px){
+@media (max-width:500px){
         #partners1{
            display: none;
     
@@ -212,19 +212,21 @@ body{
 
         #pat{
             background-color: #E5E5E5;
-            height: 800px;
-
-            
+            height: 900px;
 
         }
         #partners{
             display:block;
             text-align: center;
             background-color: #E5E5E5;
-        
-
-     
+            
         }
+
+        #cola1{
+            width: 80%;
+            text-align: center;
+        }
+
     }
 
 
